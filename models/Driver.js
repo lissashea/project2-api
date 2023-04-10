@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
+const Schema = mongoose.Schema;
 
-const pointsByYear = new mongoose.Schema({
+const pointsByYear = new Schema({
   _id: { 
     type: String,
     required: false
@@ -16,7 +17,7 @@ const pointsByYear = new mongoose.Schema({
   }
 }, { _id: false });
 
-const driverSchema = new mongoose.Schema({
+let driverSchema = new Schema({
   name: {
     type: String,
     required: false
@@ -44,5 +45,11 @@ const driverSchema = new mongoose.Schema({
   }
 });
 
+driverSchema.virtual('teamName', {
+  ref: 'Team',
+  localField: 'team',
+  foreignField: '_id',
+  justOne: true,
+});
 
 export default mongoose.model("drivers", driverSchema)

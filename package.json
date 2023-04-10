@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "db:seed": "node --experimental-json-modules seed/data.js"
+    "db:seed": "node --experimental-json-modules seed/data.js",
+    "dev:seed": "npm run db:seed && npm run dev"
   },
   "keywords": [],
   "author": "",

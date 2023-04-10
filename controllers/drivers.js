@@ -1,29 +1,4 @@
-
 import Driver from "../models/Driver.js";
-// import Team from "../models/Team.js";
-
-// export const getDrivers = async (req, res) => {
-//     try {
-//       const drivers = await Driver.find();
-//       console.log("Drivers:", drivers);
-  
-//       const teams = await Team.find();
-//       console.log("Teams:",teams);
-//       // Add up the points for each team
-//       for (const driver of drivers) {
-//         const team = teams.find((team) => team.id === driver.teamID);
-//         if (team) {
-//           for (const points of driver.pointsByYear) {
-//             team.points += points.points;
-//           }
-//         }
-//       }
-  
-//       res.json(drivers);
-//     } catch (error) {
-//       next(error);
-//     }
-//   };
 
 export const getDrivers = async (req, res) => {
   try {
@@ -39,7 +14,7 @@ export const getDriver = async (req, res) => {
   try {
     const { id } = req.params;
 
-    const character = await Driver.findById(id);
+    const driver = await Driver.findById(id);
     res.json(driver);
   } catch (error) {
     console.log(error.message);
@@ -61,7 +36,7 @@ export const createDriver = async (req, res) => {
 export const updateDriver = async (req, res) => {
   const { id } = req.params;
   const driver = await Driver.findByIdAndUpdate(id, req.body);
-  res.status(200).json(driver);
+  res.status(200).json(team);
 };
 
 export const deleteDriver = async (req, res) => {

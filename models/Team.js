@@ -2,9 +2,6 @@ import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
 const Team = new Schema({
-  _id: { 
-    type: String 
-  },
   teamName: {
     type: String,
     required: false
