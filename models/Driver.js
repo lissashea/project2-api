@@ -2,7 +2,8 @@ import mongoose from "mongoose";
 
 const pointsByYear = new mongoose.Schema({
   _id: { 
-    type: String 
+    type: String,
+    required: false
   },
   year: {
     type: Number,
@@ -30,7 +31,6 @@ const driverSchema = new mongoose.Schema({
   },
   teamID: {
     type: Number,
-    ref: 'Team',
     required: false
   },
   podiums: {
@@ -44,5 +44,5 @@ const driverSchema = new mongoose.Schema({
   }
 });
 
-const Driver = mongoose.model('Driver', driverSchema);
-export default Driver;
+
+export default mongoose.model("drivers", driverSchema)
