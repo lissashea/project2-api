@@ -25,8 +25,13 @@
       ]
     }
   ],
+  "pointsByYear": {
+    "2022": 515,
+    "2023": 56
+  },
   "__v": 0
-},{
+},
+{
   "_id": "6434036b029640e5ce03075f",
   "teamName": "Red Bull Racing Honda",
   "teamID": 2,
@@ -37,6 +42,16 @@
   "country": "Austria",
   "championships": 4,
   "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/red%20bull.jpg",
+  "pointsByYear": [
+    {
+      "year": 2022,
+      "points": 759
+    },
+    {
+      "year": 2023,
+      "points": 123
+    }
+  ],
   "seasons": [
     {
       "year": 2022,
@@ -54,7 +69,8 @@
     }
   ],
   "__v": 0
-},{
+},
+{
   "_id": "6434036b029640e5ce030760",
   "teamName": "McLaren F1 Team",
   "teamID": 3,
@@ -65,6 +81,16 @@
   "country": "United Kingdom",
   "championships": 8,
   "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mclaren.jpg",
+  "pointsByYear": [
+    {
+      "year": 2022,
+      "points": 159
+    },
+    {
+      "year": 2023,
+      "points": 12
+    }
+  ],
   "seasons": [
     {
       "year": 2022,
@@ -82,39 +108,51 @@
     }
   ],
   "__v": 0
-},{
-  "_id":"6434036b029640e5ce030761",
-  "teamName": "Scuderia Ferrari Mission Winnow",
-  "teamID": 4,
-  "previousNames": [
-    "Scuderia Ferrari Marlboro",
-    "Scuderia Ferrari"
-  ],
-  "principal": "Frédéric Vasseur",
-  "owner": "Fiat Chrysler Automobiles",
-  "engine": "Ferrari",
-  "country": "Italy",
-  "championships": 16,
-  "teamLogo": "https://media.formula1.com/content/dam/fom-website/teams/Ferrari/logo-ferrari-18%20.jpg",
-  "seasons": [
-    {
-      "year": 2022,
-      "drivers": [
-        "Charles Leclerc",
-        "Carlos Sainz Jr."
-      ]
-    },
-    {
-      "year": 2023,
-      "drivers": [
-        "Charles Leclerc",
-        "Carlos Sainz Jr."
-      ]
-    }
-  ],
-  "__v": 0
-},{
-  "_id":"6434036b029640e5ce030762",
+},
+
+{ "_id": "6434036b029640e5ce030761",
+"teamName": "Scuderia Ferrari Mission Winnow",
+"teamID": 4,
+"previousNames": [
+  "Scuderia Ferrari Marlboro",
+  "Scuderia Ferrari"
+],
+"principal": "Frédéric Vasseur",
+"owner": "Fiat Chrysler Automobiles",
+"engine": "Ferrari",
+"country": "Italy",
+"championships": 16,
+"teamLogo": "https://media.formula1.com/content/dam/fom-website/teams/Ferrari/logo-ferrari-18%20.jpg",
+"pointsByYear": [
+  {
+    "year": 2022,
+    "points": 554
+  },
+  {
+    "year": 2023,
+    "points": 26
+  }
+],
+"seasons": [
+  {
+    "year": 2022,
+    "drivers": [
+      "Charles Leclerc",
+      "Carlos Sainz Jr."
+    ]
+  },
+  {
+    "year": 2023,
+    "drivers": [
+      "Charles Leclerc",
+      "Carlos Sainz Jr."
+    ]
+  }
+],
+"__v": 0
+},
+{
+  "_id": "6434036b029640e5ce030762",
   "teamName": "Aston Martin Cognizant Formula One Team",
   "teamID": 5,
   "previousNames": [
@@ -126,6 +164,16 @@
   "country": "United Kingdom",
   "championships": 0,
   "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/aston%20martin.jpg",
+  "pointsByYear": [
+    {
+      "year": 2022,
+      "points": 55
+    },
+    {
+      "year": 2023,
+      "points": 6
+    }
+  ],
   "seasons": [
     {
       "year": 2022,
@@ -139,11 +187,12 @@
       "drivers": [
         "Fernando Alonso",
         "Lance Stroll"
-      ]
+      ]    
     }
   ],
   "__v": 0
-},{
+},
+{
   "_id":"6434036b029640e5ce030763",
   "teamName": "Haas F1 Team",
   "teamID": 6,
@@ -154,6 +203,16 @@
   "country": "United States",
   "championships": 0,
   "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/haas.jpg",
+  "pointsByYear": [
+    {
+      "year": 2022,
+      "points": 37
+    },
+    {
+      "year": 2023,
+      "points": 7
+    }
+  ],
   "seasons": [
     {
       "year": 2022,
@@ -172,36 +231,6 @@
   ],
   "__v": 0
 },{
-  "_id":"6434036b029640e5ce030764",
-  "teamName": "Alpine F1 Team",
-  "teamID": 7,
-  "previousNames": [
-    "Renault F1 Team"
-  ],
-  "principal": "Davide Brivio",
-  "owner": "Groupe Renault",
-  "engine": "Renault",
-  "country": "France",
-  "championships": 2,
-  "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/alpine.jpg",
-  "seasons": [
-    {
-      "year": 2022,
-      "drivers": [
-        "Fernando Alonso",
-        "Esteban Ocon"
-      ]
-    },
-    {
-      "year": 2023,
-      "drivers": [
-        "Pierre Gasly",
-        "Esteban Ocon"
-      ]
-    }
-  ],
-  "__v": 0
-},{
   "_id":"6434036b029640e5ce030765",
   "teamName": "Williams Racing",
   "teamID": 8,
@@ -212,6 +241,16 @@
   "country": "United Kingdom",
   "championships": 9,
   "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes.jpg",
+  "pointsByYear": [
+    {
+      "year": 2022,
+      "points": 8
+    },
+    {
+      "year": 2023,
+      "points": 1
+    }
+  ],
   "seasons": [
     {
       "year": 2022,
@@ -229,7 +268,42 @@
     }
   ],
   "__v": 0
-},{
+},
+{
+  "_id":"6434036b029640e5ce030764",
+  "teamName": "Alpine F1 Team",
+  "teamID": 7,
+  "previousNames": [
+    "Renault F1 Team"
+  ],
+  "principal": "Davide Brivio",
+  "owner": "Groupe Renault",
+  "engine": "Renault",
+  "country": "France",
+  "championships": 2,
+  "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/alpine.jpg",
+  "pointsByYear": [
+    {
+      "year": 2022,
+      "points": 173
+    },
+    {
+      "year": 2023,
+      "points": 8
+    }
+  ],
+  "seasons": [
+    {
+      "year": 2022,
+      "drivers": [
+        "Fernando Alonso",
+        "Esteban Ocon"
+      ]
+    }
+    ],
+    "__v": 0
+},
+{
   "_id":"6434036b029640e5ce030766",
   "teamName": "Scuderia AlphaTauri Honda",
   "teamID": 10,
@@ -242,6 +316,16 @@
   "country": "Italy",
   "championships": 0,
   "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/alphatauri.jpg",
+  "pointsByYear": [
+    {
+      "year": 2022,
+      "points": 105
+    },
+    {
+      "year": 2023,
+      "points": 14
+    }
+  ],
   "seasons": [
     {
       "year": 2022,
@@ -272,6 +356,16 @@
   "country": "Switzerland",
   "championships": 0,
   "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/alfa%20romeo.jpg",
+  "pointsByYear": [
+    {
+      "year": 2022,
+      "points": 0
+    },
+    {
+      "year": 2023,
+      "points": 0
+    }
+  ],
   "seasons": [
     {
       "year": 2022,
@@ -289,4 +383,5 @@
     }
   ],
   "__v": 0
-}]
+}
+]

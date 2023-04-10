@@ -37,6 +37,10 @@ const Team = new Schema({
     type: String,
     required: false
   },
+  pointsByYear: {
+    type: Object,
+    required: false
+  },
   seasons: [{
     year: {
       type: Number,

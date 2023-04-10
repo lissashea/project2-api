@@ -9,11 +9,9 @@ const insertData = async () => {
     // Reset Database
     await db.dropDatabase();
 
-    // Insert Drivers into the Database
+    // Insert Drivers & Teams into the Database
     await Team.insertMany(teams);
     await Driver.insertMany(drivers);
-
-    // Insert Teams into the Database
 
     // Close DB connection
     await db.close();
