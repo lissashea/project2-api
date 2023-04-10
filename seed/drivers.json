@@ -9,22 +9,22 @@
     {
       "year": 2020,
       "points": 347,
-      "teamID": 1
+      "_id": "6434036b029640e5ce03075e"
     },
     {
       "year": 2021,
       "points": 387,
-      "teamID": 1
+      "_id": "6434036b029640e5ce03075e"    
     },
     {
       "year": 2022,
       "points": 240,
-      "teamID": 1
+      "_id": "6434036b029640e5ce03075e"
     },
     {
       "year": 2023,
       "points": 38,
-      "teamID": 1
+      "_id": "6434036b029640e5ce03075e"
     }
   ],
   "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/hamilton.jpg.img.1536.medium.jpg/1677069594164.jpg",
@@ -40,22 +40,22 @@
     {
       "year": 2020,
       "points": 98,
-      "teamID": 4
+      "_id": "6434036b029640e5ce030761"
     },
     {
       "year": 2021,
       "points": 159,
-      "teamID": 4
+      "_id": "6434036b029640e5ce030761"
     },
     {
       "year": 2022,
       "points": 308,
-      "teamID": 4
+      "_id": "6434036b029640e5ce030761"
     },
     {
       "year": 2023,
       "points": 6,
-      "teamID": 4
+      "_id": "6434036b029640e5ce030761"
     }
   ],
   "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png.transform/2col-retina/image.png",
@@ -71,22 +71,24 @@
     {
       "year": 2020,
       "points": 214,
-      "teamID": 2
+      "_id": "6434036b029640e5ce03075f"
     },
     {
       "year": 2021,
       "points": 395,
-      "teamID": 2
+      "_id": "6434036b029640e5ce03075f"
+
     },
     {
       "year": 2022,
       "points": 454,
-      "teamID": 2
+      "_id": "6434036b029640e5ce03075f"
+
     },
     {
       "year": 2023,
       "points": 69,
-      "teamID": 2
+      "_id": "6434036b029640e5ce03075f"
     }
   ],
   "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/verstappen.jpg.img.1536.medium.jpg/1677069646195.jpg",
@@ -102,22 +104,23 @@
     {
       "year": 2020,
       "points": 223,
-      "teamID": 1
+      "_id": "6434036b029640e5ce03075e"
+
     },
     {
       "year": 2021,
       "points": 226,
-      "teamID": 1
+      "_id": "6434036b029640e5ce03075e"
     },
     {
       "year": 2022,
       "points": 49,
-      "teamID": 9
+      "_id": "6434036b029640e5ce030767"
     },
     {
       "year": 2023,
       "points": 4,
-      "teamID": 9
+      "_id": "6434036b029640e5ce030767"
     }
   ],
   "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png.transform/2col-retina/image.png",
@@ -133,17 +136,17 @@
     {
       "year": 2021,
       "points": 164,
-      "teamID": 4
+      "_id": "6434036b029640e5ce030761"
     },
     {
       "year": 2022,
       "points": 246,
-      "teamID": 4
+      "_id": "6434036b029640e5ce030761"
     },
     {
       "year": 2023,
       "points": 20,
-      "teamID": 4
+      "_id": "6434036b029640e5ce030761"
     }
   ],
   "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png.transform/2col-retina/image.png",
@@ -159,17 +162,17 @@
     {
       "year": 2021,
       "points": 160,
-      "teamID": 3
+      "_id": "6434036b029640e5ce030760"
     },
     {
       "year": 2022,
       "points": 122,
-      "teamID": 3
+      "_id": "6434036b029640e5ce030760"    
     },
     {
       "year": 2023,
       "points": 8,
-      "teamID": 3
+      "_id": "6434036b029640e5ce030760"    
     }
   ],
   "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png.transform/2col-retina/image.png",
@@ -190,17 +193,17 @@
     {
       "year": 2021,
       "points": 81,
-      "teamID": 5
+      "_id": "6434036b029640e5ce030762"
     },
     {
       "year": 2022,
       "points": 81,
-      "teamID": 7
+      "_id": "6434036b029640e5ce030762"
     },
     {
       "year": 2023,
       "points": 45,
-      "teamID": 5
+      "_id": "6434036b029640e5ce030762"
     }
   ],
   "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/alonso.jpg.img.1536.medium.jpg/1677244577162.jpg",
@@ -216,22 +219,22 @@
     {
       "year": 2020,
       "points": 75,
-      "teamID": 5
+      "_id": "6434036b029640e5ce030762"
     },
     {
       "year": 2021,
       "points": 34,
-      "teamID": 5
+      "_id": "6434036b029640e5ce030762"
     },
     {
       "year": 2022,
       "points": 18,
-      "teamID": 5
+      "_id": "6434036b029640e5ce030762"
     },
     {
       "year": 2023,
       "points": 20,
-      "teamID": 5
+      "_id": "6434036b029640e5ce030762"
     }
   ],
   "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png.transform/2col-retina/image.png",
@@ -247,27 +250,27 @@
     {
       "year": 2019,
       "points": 92,
-      "teamID": 10
+      "_id": "6434036b029640e5ce030766"
     },
     {
       "year": 2020,
       "points": 105,
-      "teamID": 2
+      "_id": "6434036b029640e5ce03075f"
     },
     {
       "year": 2021,
       "points": 0,
-      "teamID": 2
+      "_id": "6434036b029640e5ce03075f"
     },
     {
       "year": 2022,
       "points": 4,
-      "teamID": 2
+      "_id": "6434036b029640e5ce03075f"
     },
     {
       "year": 2023,
       "points": 1,
-      "teamID": 8
+      "_id": "6434036b029640e5ce030765"
     }
   ],
   "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png.transform/2col-retina/image.png",
@@ -283,17 +286,17 @@
     {
       "year": 2020,
       "points": 1,
-      "teamID": 6
+      "_id": "6434036b029640e5ce030763"
     },
     {
       "year": 2022,
       "points": 25,
-      "teamID": 6
+      "id": "6434036b029640e5ce030763"
     },
     {
       "year": 2023,
       "points": 1,
-      "teamID": 6
+      "id": "6434036b029640e5ce030763"    
     }
   ],
   "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/K/KEVMAG01_Kevin_Magnussen/kevmag01.png.transform/2col-retina/image.png",
@@ -309,22 +312,22 @@
     {
       "year": 2020,
       "points": 75,
-      "teamID": 10
+      "_id": "6434036b029640e5ce030766"
     },
     {
       "year": 2021,
       "points": 110,
-      "teamID": 10
+      "_id": "6434036b029640e5ce030766"
     },
     {
       "year": 2022,
       "points": 23,
-      "teamID": 10
+      "_id": "6434036b029640e5ce030766"
     },
     {
       "year": 2023,
       "points": 4,
-      "teamID": 7
+      "_id": "6434036b029640e5ce030764"
     }
   ],
   "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png.transform/2col-retina/image.png",
@@ -340,7 +343,7 @@
     {
       "year": 2023,
       "points": 4,
-      "teamID": 3
+      "_id": "6434036b029640e5ce030760"
     }
   ],
   "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png.transform/2col-retina/image.png",
@@ -356,7 +359,7 @@
     {
       "year": 2023,
       "points": 0,
-      "teamID": 10
+      "_id": "6434036b029640e5ce030766"
     }
   ],
   "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/devries.jpg.img.1536.medium.jpg/1676983081637.jpg",
@@ -372,7 +375,7 @@
     {
       "year": 2023,
       "points": 0,
-      "teamID": 8
+      "_id": "6434036b029640e5ce030765"
     }
   ],
   "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LOGSAR01_Logan_Sargeant/logsar01.png.transform/2col-retina/image.png",
@@ -388,12 +391,12 @@
     {
       "year": 2022,
       "points": 5,
-      "teamID": 9
+      "_id": "6434036b029640e5ce030767"
     },
     {
       "year": 2023,
       "points": 2,
-      "teamID": 9
+      "id_": "96434036b029640e5ce030767"
     }
   ],
   "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GUAZHO01_Guanyu_Zhou/guazho01.png.transform/2col-retina/image.png",
@@ -409,12 +412,12 @@
     {
       "year": 2021,
       "points": 32,
-      "teamID": 10
+      "_id": "6434036b029640e5ce030766"
     },
     {
       "year": 2022,
       "points": 22,
-      "teamID": 10
+      "_id": "6434036b029640e5ce030766"
     },
     {
       "year": 2023,
@@ -435,22 +438,22 @@
     {
       "year": 2020,
       "points": 10,
-      "teamID": 5
+      "_id": "6434036b029640e5ce030762"
     },
     {
       "year": 2021,
       "points": 0,
-      "teamID": 5
+      "_id": "6434036b029640e5ce030762"
     },
     {
       "year": 2022,
       "points": 0,
-      "teamID": 5
+      "_id": "6434036b029640e5ce030762"
     },
     {
       "year": 2023,
       "points": 6,
-      "teamID": 6
+      "_id": "6434036b029640e5ce030763"
     }
   ],
   "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png.transform/2col-retina/image.png",
@@ -466,22 +469,22 @@
     {
       "year": 2020,
       "points": 62,
-      "teamID": 7
+      "_id": "6434036b029640e5ce030764"
     },
     {
       "year": 2021,
       "points": 45,
-      "teamID": 7
+      "_id": "6434036b029640e5ce030764"
     },
     {
       "year": 2022,
       "points": 17,
-      "teamID": 7
+      "_id": "6434036b029640e5ce030764"
     },
     {
       "year": 2023,
       "points": 4,
-      "teamID": 7
+      "_id": "6434036b029640e5ce030764"
     }
   ],
   "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png.transform/2col-retina/image.png",
@@ -497,17 +500,17 @@
     {
       "year": 2021,
       "points": 16,
-      "teamID": 8
+      "_id": "6434036b029640e5ce030765"
     },
     {
       "year": 2022,
       "points": 275,
-      "teamID": 1
+      "_id": "6434036b029640e5ce03075e"
     },
     {
       "year": 2023,
       "points": 18,
-      "teamID": 1
+      "_id": "6434036b029640e5ce03075e"
     }
   ],
   "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/russell.jpg.img.1536.medium.jpg/1677069334466.jpg",
@@ -523,22 +526,22 @@
     {
       "year": 2020,
       "points": 125,
-      "teamID": 5
+      "_id": "6434036b029640e5ce030762"
     },
     {
       "year": 2021,
       "points": 190,
-      "teamID": 2
+      "_id": "6434036b029640e5ce03075f"
     },
     {
       "year": 2022,
       "points": 305,
-      "teamID": 2
+      "_id": "6434036b029640e5ce03075f"
     },
     {
       "year": 2023,
       "points": 54,
-      "teamID": 2
+      "_id": "6434036b029640e5ce03075f"
     }
   ],
   "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/perez.jpg.img.1536.medium.jpg/1677069773437.jpg",

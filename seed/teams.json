@@ -7,8 +7,12 @@
   "owner": "Daimler AG",
   "engine": "Mercedes",
   "country": "Germany",
-  "championships": 7,
+  "championships": 8,
   "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes.jpg",
+  "pointsByYear": {
+    "2022": 515,
+    "2023": 56
+  },
   "seasons": [
     {
       "year": 2022,
@@ -25,10 +29,6 @@
       ]
     }
   ],
-  "pointsByYear": {
-    "2022": 515,
-    "2023": 56
-  },
   "__v": 0
 },
 {
@@ -40,7 +40,7 @@
   "owner": "Dietrich Mateschitz",
   "engine": "Honda",
   "country": "Austria",
-  "championships": 4,
+  "championships": 5,
   "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/red%20bull.jpg",
   "pointsByYear": [
     {
@@ -114,8 +114,7 @@
 "teamName": "Scuderia Ferrari Mission Winnow",
 "teamID": 4,
 "previousNames": [
-  "Scuderia Ferrari Marlboro",
-  "Scuderia Ferrari"
+  "Scuderia Ferrari Marlboro"
 ],
 "principal": "Frédéric Vasseur",
 "owner": "Fiat Chrysler Automobiles",
@@ -217,7 +216,7 @@
     {
       "year": 2022,
       "drivers": [
-        " Mick Schumacher",
+        "Mick Schumacher",
         "Kevin Magnussen"
       ]
     },
@@ -235,7 +234,7 @@
   "teamName": "Williams Racing",
   "teamID": 8,
   "previousNames": [],
-  "principal": "Jost Capito",
+  "principal": "James Vowles",
   "owner": "Dorilton Capital",
   "engine": "Mercedes",
   "country": "United Kingdom",
@@ -320,6 +319,7 @@
     {
       "year": 2022,
       "points": 105
+
     },
     {
       "year": 2023,
