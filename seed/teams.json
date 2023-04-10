@@ -1,0 +1,292 @@
+[{
+  "_id": "6434036b029640e5ce03075e",
+  "teamName": "Mercedes-AMG Petronas Formula One Team",
+  "teamID": 1,
+  "previousNames": [],
+  "principal": "Toto Wolff",
+  "owner": "Daimler AG",
+  "engine": "Mercedes",
+  "country": "Germany",
+  "championships": 7,
+  "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes.jpg",
+  "seasons": [
+    {
+      "year": 2022,
+      "drivers": [
+        "Lewis Hamilton",
+        "George Russel"
+      ]
+    },
+    {
+      "year": 2023,
+      "drivers": [
+        "Lewis Hamilton",
+        "George Russel"
+      ]
+    }
+  ],
+  "__v": 0
+},{
+  "_id": "6434036b029640e5ce03075f",
+  "teamName": "Red Bull Racing Honda",
+  "teamID": 2,
+  "previousNames": [],
+  "principal": "Christian Horner",
+  "owner": "Dietrich Mateschitz",
+  "engine": "Honda",
+  "country": "Austria",
+  "championships": 4,
+  "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/red%20bull.jpg",
+  "seasons": [
+    {
+      "year": 2022,
+      "drivers": [
+        "Max Verstappen",
+        "Sergio Perez"
+      ]
+    },
+    {
+      "year": 2023,
+      "drivers": [
+        "Max Verstappen",
+        "Sergio Perez"
+      ]
+    }
+  ],
+  "__v": 0
+},{
+  "_id": "6434036b029640e5ce030760",
+  "teamName": "McLaren F1 Team",
+  "teamID": 3,
+  "previousNames": [],
+  "principal": "Andreas Seidl",
+  "owner": "McLaren Racing Limited",
+  "engine": "Mercedes",
+  "country": "United Kingdom",
+  "championships": 8,
+  "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mclaren.jpg",
+  "seasons": [
+    {
+      "year": 2022,
+      "drivers": [
+        "Lando Norris",
+        "Daniel Ricciardo"
+      ]
+    },
+    {
+      "year": 2023,
+      "drivers": [
+        "Lando Norris",
+        "Oscar Piastri"
+      ]
+    }
+  ],
+  "__v": 0
+},{
+  "_id":"6434036b029640e5ce030761",
+  "teamName": "Scuderia Ferrari Mission Winnow",
+  "teamID": 4,
+  "previousNames": [
+    "Scuderia Ferrari Marlboro",
+    "Scuderia Ferrari"
+  ],
+  "principal": "Frédéric Vasseur",
+  "owner": "Fiat Chrysler Automobiles",
+  "engine": "Ferrari",
+  "country": "Italy",
+  "championships": 16,
+  "teamLogo": "https://media.formula1.com/content/dam/fom-website/teams/Ferrari/logo-ferrari-18%20.jpg",
+  "seasons": [
+    {
+      "year": 2022,
+      "drivers": [
+        "Charles Leclerc",
+        "Carlos Sainz Jr."
+      ]
+    },
+    {
+      "year": 2023,
+      "drivers": [
+        "Charles Leclerc",
+        "Carlos Sainz Jr."
+      ]
+    }
+  ],
+  "__v": 0
+},{
+  "_id":"6434036b029640e5ce030762",
+  "teamName": "Aston Martin Cognizant Formula One Team",
+  "teamID": 5,
+  "previousNames": [
+    "Racing Point F1 Team"
+  ],
+  "principal": "Otmar Szafnauer",
+  "owner": "Lawrence Stroll",
+  "engine": "Mercedes",
+  "country": "United Kingdom",
+  "championships": 0,
+  "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/aston%20martin.jpg",
+  "seasons": [
+    {
+      "year": 2022,
+      "drivers": [
+        "Sebastian Vettel",
+        "Lance Stroll"
+      ]
+    },
+    {
+      "year": 2023,
+      "drivers": [
+        "Fernando Alonso",
+        "Lance Stroll"
+      ]
+    }
+  ],
+  "__v": 0
+},{
+  "_id":"6434036b029640e5ce030763",
+  "teamName": "Haas F1 Team",
+  "teamID": 6,
+  "previousNames": [],
+  "principal": "Guenther Steiner",
+  "owner": "Gene Haas",
+  "engine": "Ferrari",
+  "country": "United States",
+  "championships": 0,
+  "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/haas.jpg",
+  "seasons": [
+    {
+      "year": 2022,
+      "drivers": [
+        " Mick Schumacher",
+        "Kevin Magnussen"
+      ]
+    },
+    {
+      "year": 2023,
+      "drivers": [
+        "Nico Hulkenberg",
+        "Kevin Magnussen"
+      ]
+    }
+  ],
+  "__v": 0
+},{
+  "_id":"6434036b029640e5ce030764",
+  "teamName": "Alpine F1 Team",
+  "teamID": 7,
+  "previousNames": [
+    "Renault F1 Team"
+  ],
+  "principal": "Davide Brivio",
+  "owner": "Groupe Renault",
+  "engine": "Renault",
+  "country": "France",
+  "championships": 2,
+  "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/alpine.jpg",
+  "seasons": [
+    {
+      "year": 2022,
+      "drivers": [
+        "Fernando Alonso",
+        "Esteban Ocon"
+      ]
+    },
+    {
+      "year": 2023,
+      "drivers": [
+        "Pierre Gasly",
+        "Esteban Ocon"
+      ]
+    }
+  ],
+  "__v": 0
+},{
+  "_id":"6434036b029640e5ce030765",
+  "teamName": "Williams Racing",
+  "teamID": 8,
+  "previousNames": [],
+  "principal": "Jost Capito",
+  "owner": "Dorilton Capital",
+  "engine": "Mercedes",
+  "country": "United Kingdom",
+  "championships": 9,
+  "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes.jpg",
+  "seasons": [
+    {
+      "year": 2022,
+      "drivers": [
+        "Alexander Albon",
+        " Nicholas Latifi"
+      ]
+    },
+    {
+      "year": 2023,
+      "drivers": [
+        "Alexander Albon",
+        "Logan Sargeant"
+      ]
+    }
+  ],
+  "__v": 0
+},{
+  "_id":"6434036b029640e5ce030766",
+  "teamName": "Scuderia AlphaTauri Honda",
+  "teamID": 10,
+  "previousNames": [
+    "Scuderia Toro Rosso"
+  ],
+  "principal": "Franz Tost",
+  "owner": "Red Bull GmbH",
+  "engine": "Honda",
+  "country": "Italy",
+  "championships": 0,
+  "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/alphatauri.jpg",
+  "seasons": [
+    {
+      "year": 2022,
+      "drivers": [
+        "Yuki Tsunoda",
+        "Pierre Gasly"
+      ]
+    },
+    {
+      "year": 2023,
+      "drivers": [
+        "Yuki Tsunoda",
+        "Nyck de Vries"
+      ]
+    }
+  ],
+  "__v": 0
+},{
+  "_id":"6434036b029640e5ce030767",
+  "teamName": "Alfa Romeo Racing ORLEN",
+  "teamID": 9,
+  "previousNames": [
+    "Sauber"
+  ],
+  "principal": "Alessandro Alunni Bravi",
+  "owner": "Sauber Motorsport AG",
+  "engine": "Ferrari",
+  "country": "Switzerland",
+  "championships": 0,
+  "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/alfa%20romeo.jpg",
+  "seasons": [
+    {
+      "year": 2022,
+      "drivers": [
+        "Valtteri Bottas",
+        "Guanyu Zhou"
+      ]
+    },
+    {
+      "year": 2023,
+      "drivers": [
+        "Valtteri Bottas",
+        "Guanyu Zhou"
+      ]
+    }
+  ],
+  "__v": 0
+}]
