@@ -18,7 +18,8 @@ app.use("/api", routes);
 db.on("connected", () => {
   console.clear();
   console.log(chalk.blue("Connected to MongoDB!"));
+})  
 
-  const PORT = process.env.PORT || 3000;
-  app.listen(port, () => console.log(`app listening on port ${port}`))
-})
+const port = process.env.PORT || 3000
+
+app.listen(port, () => console.log(`app listening on port ${port}`))
