@@ -1,4 +1,3 @@
-
 import db from "../db/connection.js";
 import Team from "../models/Team.js";
 import Driver from "../models/Driver.js";
@@ -13,7 +12,6 @@ const insertData = async () => {
     // Insert Drivers & Teams into the Database
     await Team.insertMany(teams);
     await Driver.insertMany(drivers);
-
 
     // Close DB connection
     await db.close();
