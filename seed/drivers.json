@@ -105,7 +105,6 @@
       "year": 2020,
       "points": 223,
       "_id": "6434036b029640e5ce03075e"
-
     },
     {
       "year": 2021,
@@ -125,7 +124,8 @@
   ],
   "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png.transform/2col-retina/image.png",
   "__v": 0
-},{
+},
+{
   "_id": "6434036c029640e5ce03076d",
   "name": "Carlos Sainz",
   "nationality": "Spanish",
@@ -247,11 +247,6 @@
   "teamID": 8,
   "podiums": 2,
   "pointsByYear": [
-    {
-      "year": 2019,
-      "points": 92,
-      "_id": "6434036b029640e5ce030766"
-    },
     {
       "year": 2020,
       "points": 105,
@@ -422,7 +417,7 @@
     {
       "year": 2023,
       "points": 1,
-      "teamID": 10
+      "_id": "6434036b029640e5ce030766"
     }
   ],
   "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/hulkenberg.jpg.img.1536.medium.jpg/1676983071882.jpg",
