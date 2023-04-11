@@ -8,7 +8,7 @@ process.env.MONGO_URL  || "mongodb://127.0.0.1:27017/formula1";
 mongoose.set("returnOriginal", false);
 
 mongoose
-  .connect(url, mongooseConfig)
+  .connect(url)
   .catch((error) =>
     console.log("Error connecting to MongoDB: ", error.message)
   );
