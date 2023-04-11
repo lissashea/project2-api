@@ -1,3 +1,4 @@
+
 import db from "../db/connection.js";
 import Team from "../models/Team.js";
 import Driver from "../models/Driver.js";
@@ -21,4 +22,4 @@ const insertData = async () => {
   }
 };
 
-insertData();
+export default insertData();
