@@ -10,10 +10,16 @@
     "country": "Germany",
     "championships": 8,
     "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes.jpg",
-    "pointsByYear": {
-      "2022": 515,
-      "2023": 56
-    },
+    "pointsByYear": [
+      {
+        "year": 2022,
+        "points": 515
+      },
+      {
+        "year": 2023,
+        "points": 56
+      }
+    ],
     "seasons": [
       {
         "year": 2022,
