@@ -1,10 +1,10 @@
-import mongoose, { model } from "mongoose";
+import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
 const pointsByYear = new Schema({
   _id: { 
-    type: Schema.Types.ObjectId,
-    ref: "Team"
+    type: String,
+    required: false
   },
   year: {
     type: Number,
