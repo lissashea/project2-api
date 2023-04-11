@@ -2,9 +2,11 @@ import mongoose from "mongoose";
 import chalk from "chalk";
 
 const MONGODB_URI =
-  process.env.PROD_MONGODB || "mongodb://127.0.0.1:27017/formula1";
+process.env.MONGO_URL  || "mongodb://127.0.0.1:27017/formula1";
 
 // This is for Model.findByIdAndUpdate method, specifically so that {new: true} is the default
+mongoose.connect(MONGODB_URI, mongooseConfig)
+
 mongoose.set("returnOriginal", false);
 
 mongoose
