@@ -1,8 +1,10 @@
 import mongoose from "mongoose";
 import chalk from "chalk";
-const MONGODB_URI = process.env.MONGO_URL || "mongodb://127.0.0.1:27017/formula1";
+
+const MONGODB_URI = process.env.MONGO_URL || "mongodb://127.0.0.1:27017/formula1"
 
 mongoose.set("returnOriginal", false);
+
 let mongooseConfig = { useNewUrlParser: true, useUnifiedTopology: true };
 
 mongoose.connect(MONGODB_URI, mongooseConfig).catch((error) => console.log("error connecting to MongoDB", error.message));
