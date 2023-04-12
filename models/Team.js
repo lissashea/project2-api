@@ -1,6 +1,23 @@
 import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
+const pointsByYear = new Schema(
+  {
+    year: {
+      type: Number,
+      required: false,
+      default: 2022,
+    },
+    points: {
+      type: Number
+    },
+    drivers: {
+      type: [String]
+    }
+  },
+  { _id: false }
+);
+
 const Team = new Schema({
   teamName: { type: String },
   // teamID: { type: Number },
@@ -11,21 +28,7 @@ const Team = new Schema({
   country: { type: String },
   championships: { type: Number },
   teamLogo: { type: String },
-  pointsByYear: { type: Object },
-  seasons: [
-    {
-      year: {
-        type: Number,
-        required: false
-      },
-      drivers: [
-        {
-          type: String
-        },
-      ],
-      _id: false,
-    },
-  ],
+  pointsByYear: [pointsByYear]
 });
 
 export default mongoose.model("teams", Team);

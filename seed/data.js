@@ -10,8 +10,8 @@ let driverData = drivers.map(item => {
   team: item.team,
   podiums: item.podiums,
   credit: item.copyright,
-  pointsByYear: item.pointsByYear[0],
-  image: item.image
+  pointsByYear: item.pointsByYear,
+  image: item.image,
   }
 });
 
@@ -22,8 +22,8 @@ let teamData = teams.map(item => {
     principal: item.principal,
     engine: item.engine,
     championships: item.championships,
-    pointsByYear: item.pointsByYear[0],
-    seasons: item.seasons[0]
+    pointsByYear: item.pointsByYear,
+    seasons: item.seasons,
   }
 });
 

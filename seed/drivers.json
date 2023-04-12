@@ -1,7 +1,7 @@
 [
   {
     "_id": "6434036b029640e5ce030769",
-    "name": "Lewis Hamiltonn",
+    "name": "Lewis Hamilton",
     "nationality": "British",
     "team": "Mercedes-AMG Petronas Formula One Team",
     "teamID": 1,
@@ -31,6 +31,7 @@
     "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/hamilton.jpg.img.1536.medium.jpg/1677069594164.jpg",
     "__v": 0
   },
+  
   {
     "_id": "6434036b029640e5ce03076a",
     "name": "Charles Leclerc",
@@ -557,5 +558,36 @@
     ],
     "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/perez.jpg.img.1536.medium.jpg/1677069773437.jpg",
     "__v": 0
-  }
+  },
+  {
+		"_id": "64369f897a56459294642d87",
+		"name": "Daniel Ricciardo",
+		"team": "Not applicable",
+		"podiums": 32,
+		"pointsByYear": [
+			{
+				"_id": "6435c7e9fdc1a1437ff9f058",
+				"year": 2022,
+				"points": 37
+			}
+		],
+		"image": "https://cdn-3.motorsport.com/images/mgl/Y9oBpLx0/s800/f1-australian-gp-2017-daniel-ricciardo-red-bull-racing.jpg",
+		"__v": 0
+	},
+  {
+		"_id": "6436a6bb5f8b5021deaa6637",
+		"name": "Mick Schumacher",
+		"team": "Not applicable",
+		"podiums": 0,
+		"pointsByYear": [
+			{
+				"_id": "6436a60c2c12d892d2e69dbe",
+				"year": 2022,
+				"points": 12
+			}
+		],
+		"image": "https://res.cloudinary.com/prod-f2f3/image/upload/v1583156129/f2/global/drivers/2020/_R3I4652.jpg",
+		"__v": 0
+	}
+
 ]

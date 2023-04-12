@@ -4,16 +4,14 @@ const Schema = mongoose.Schema;
 const pointsByYear = new Schema(
   {
     _id: {
-      type: String,
+      type: String
     },
     year: {
       type: Number,
-      required: false,
       default: 2022,
     },
     points: {
-      type: Number,
-      required: false,
+      type: Number
     },
   },
   { _id: false }

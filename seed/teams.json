@@ -13,27 +13,13 @@
     "pointsByYear": [
       {
         "year": 2022,
-        "points": 515
+        "points": 515,
+        "drivers": ["6434036b029640e5ce030769","6434036c029640e5ce03077b"]
       },
       {
         "year": 2023,
-        "points": 56
-      }
-    ],
-    "seasons": [
-      {
-        "year": 2022,
-        "drivers": [
-          "Lewis Hamilton",
-          "George Russel"
-        ]
-      },
-      {
-        "year": 2023,
-        "drivers": [
-          "Lewis Hamilton",
-          "George Russel"
-        ]
+        "points": 56,
+        "drivers": ["6434036b029640e5ce030769","6434036c029640e5ce03077b"]
       }
     ],
     "__v": 0
@@ -52,27 +38,13 @@
     "pointsByYear": [
       {
         "year": 2022,
-        "points": 759
+        "points": 759,
+        "drivers": ["6434036b029640e5ce03076b","6434036c029640e5ce03077c"]
       },
       {
         "year": 2023,
-        "points": 123
-      }
-    ],
-    "seasons": [
-      {
-        "year": 2022,
-        "drivers": [
-          "Max Verstappen",
-          "Sergio Perez"
-        ]
-      },
-      {
-        "year": 2023,
-        "drivers": [
-          "Max Verstappen",
-          "Sergio Perez"
-        ]
+        "points": 123,
+        "drivers": ["6434036b029640e5ce03076b","6434036c029640e5ce03077c"]
       }
     ],
     "__v": 0
@@ -91,31 +63,18 @@
     "pointsByYear": [
       {
         "year": 2022,
-        "points": 159
+        "points": 159,
+        "drivers": ["6434036c029640e5ce03076e","64369f897a56459294642d87"]
       },
       {
         "year": 2023,
-        "points": 12
+        "points": 12,
+        "drivers": ["6434036c029640e5ce03076e","6434036c029640e5ce030774"]
       }
     ],
-    "seasons": [
-      {
-        "year": 2022,
-        "drivers": [
-          "Lando Norris",
-          "Daniel Ricciardo"
-        ]
-      },
-      {
-        "year": 2023,
-        "drivers": [
-          "Lando Norris",
-          "Oscar Piastri"
-        ]
-      }
-    ],
-    "__v": 0
+  "__v": 0
   },
+
   {
     "_id": "6434036b029640e5ce030761",
     "teamName": "Scuderia Ferrari Mission Winnow",
@@ -132,27 +91,13 @@
     "pointsByYear": [
       {
         "year": 2022,
-        "points": 554
+        "points": 554,
+        "drivers": ["6434036b029640e5ce03076a","6434036c029640e5ce03076d"]
       },
       {
         "year": 2023,
-        "points": 26
-      }
-    ],
-    "seasons": [
-      {
-        "year": 2022,
-        "drivers": [
-          "Charles Leclerc",
-          "Carlos Sainz Jr."
-        ]
-      },
-      {
-        "year": 2023,
-        "drivers": [
-          "Charles Leclerc",
-          "Carlos Sainz Jr."
-        ]
+        "points": 26,
+        "drivers": ["6434036b029640e5ce03076a","6434036c029640e5ce03076d"]
       }
     ],
     "__v": 0
@@ -173,27 +118,15 @@
     "pointsByYear": [
       {
         "year": 2022,
-        "points": 55
+        "points": 55,
+        "drivers": ["Sebastian Vettel","6434036c029640e5ce030770"]
+
       },
       {
         "year": 2023,
-        "points": 6
-      }
-    ],
-    "seasons": [
-      {
-        "year": 2022,
-        "drivers": [
-          "Sebastian Vettel",
-          "Lance Stroll"
-        ]
-      },
-      {
-        "year": 2023,
-        "drivers": [
-          "Fernando Alonso",
-          "Lance Stroll"
-        ]
+        "points": 6,
+        "drivers": ["Fernando Alonso","6434036c029640e5ce030770"]
+
       }
     ],
     "__v": 0
@@ -212,27 +145,13 @@
     "pointsByYear": [
       {
         "year": 2022,
-        "points": 37
+        "points": 37,
+        "drivers": ["Mick Schumacher","6434036c029640e5ce030772"]
       },
       {
         "year": 2023,
-        "points": 7
-      }
-    ],
-    "seasons": [
-      {
-        "year": 2022,
-        "drivers": [
-          "Mick Schumacher",
-          "Kevin Magnussen"
-        ]
-      },
-      {
-        "year": 2023,
-        "drivers": [
-          "Nico Hulkenberg",
-          "Kevin Magnussen"
-        ]
+        "points": 7,
+        "drivers": ["6434036c029640e5ce030779","6434036c029640e5ce030772"]
       }
     ],
     "__v": 0
@@ -251,27 +170,14 @@
     "pointsByYear": [
       {
         "year": 2022,
-        "points": 8
+        "points": 8,
+        "drivers": ["6434036c029640e5ce030771","Nicholas Latifi"]
+
       },
       {
         "year": 2023,
-        "points": 1
-      }
-    ],
-    "seasons": [
-      {
-        "year": 2022,
-        "drivers": [
-          "Alexander Albon",
-          " Nicholas Latifi"
-        ]
-      },
-      {
-        "year": 2023,
-        "drivers": [
-          "Alexander Albon",
-          "Logan Sargeant"
-        ]
+        "points": 1,
+        "drivers": ["6434036c029640e5ce030771","6434036c029640e5ce030776"]
       }
     ],
     "__v": 0
@@ -292,20 +198,13 @@
     "pointsByYear": [
       {
         "year": 2022,
-        "points": 173
+        "points": 173,
+        "drivers": ["6434036c029640e5ce03076f","6434036c029640e5ce03077a"]
       },
       {
         "year": 2023,
-        "points": 8
-      }
-    ],
-    "seasons": [
-      {
-        "year": 2022,
-        "drivers": [
-          "Fernando Alonso",
-          "Esteban Ocon"
-        ]
+        "points": 8,
+        "drivers": ["6434036c029640e5ce030773","6434036c029640e5ce03077a"]
       }
     ],
     "__v": 0
@@ -326,27 +225,13 @@
     "pointsByYear": [
       {
         "year": 2022,
-        "points": 105
+        "points": 35,
+        "drivers": ["6434036c029640e5ce030778","6434036c029640e5ce030773"]
       },
       {
         "year": 2023,
-        "points": 14
-      }
-    ],
-    "seasons": [
-      {
-        "year": 2022,
-        "drivers": [
-          "Yuki Tsunoda",
-          "Pierre Gasly"
-        ]
-      },
-      {
-        "year": 2023,
-        "drivers": [
-          "Yuki Tsunoda",
-          "Nyck de Vries"
-        ]
+        "points": 1,
+        "drivers": ["6434036c029640e5ce030778","6434036c029640e5ce030775"]
       }
     ],
     "__v": 0
@@ -367,27 +252,13 @@
     "pointsByYear": [
       {
         "year": 2022,
-        "points": 0
+        "points": 55,
+        "drivers": ["6434036b029640e5ce03076c","6434036c029640e5ce030777"]
       },
       {
         "year": 2023,
-        "points": 0
-      }
-    ],
-    "seasons": [
-      {
-        "year": 2022,
-        "drivers": [
-          "Valtteri Bottas",
-          "Guanyu Zhou"
-        ]
-      },
-      {
-        "year": 2023,
-        "drivers": [
-          "Valtteri Bottas",
-          "Guanyu Zhou"
-        ]
+        "points": 6,
+        "drivers": ["6434036b029640e5ce03076c","6434036c029640e5ce030777"]
       }
     ],
     "__v": 0
