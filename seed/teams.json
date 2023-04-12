@@ -1,6 +1,5 @@
 [
   {
-    "_id": "6434036b029640e5ce03075e",
     "teamName": "Mercedes-AMG Petronas Formula One Team",
     "teamID": 1,
     "previousNames": [],
@@ -14,18 +13,16 @@
       {
         "year": 2022,
         "points": 515,
-        "drivers": ["6434036b029640e5ce030769","6434036c029640e5ce03077b"]
+        "_id": ["6434036b029640e5ce030769","6434036c029640e5ce03077b"]
       },
       {
         "year": 2023,
         "points": 56,
-        "drivers": ["6434036b029640e5ce030769","6434036c029640e5ce03077b"]
+        "_id": ["6434036b029640e5ce030769","6434036c029640e5ce03077b"]
       }
-    ],
-    "__v": 0
+    ]
   },
   {
-    "_id": "6434036b029640e5ce03075f",
     "teamName": "Red Bull Racing Honda",
     "teamID": 2,
     "previousNames": [],
@@ -39,18 +36,16 @@
       {
         "year": 2022,
         "points": 759,
-        "drivers": ["6434036b029640e5ce03076b","6434036c029640e5ce03077c"]
+        "_id": ["6434036b029640e5ce03076b","6434036c029640e5ce03077c"]
       },
       {
         "year": 2023,
         "points": 123,
-        "drivers": ["6434036b029640e5ce03076b","6434036c029640e5ce03077c"]
+        "_id": ["6434036b029640e5ce03076b","6434036c029640e5ce03077c"]
       }
-    ],
-    "__v": 0
+    ]
   },
   {
-    "_id": "6434036b029640e5ce030760",
     "teamName": "McLaren F1 Team",
     "teamID": 3,
     "previousNames": [],
@@ -64,19 +59,17 @@
       {
         "year": 2022,
         "points": 159,
-        "drivers": ["6434036c029640e5ce03076e","64369f897a56459294642d87"]
+        "_id": ["6434036c029640e5ce03076e","64369f897a56459294642d87"]
       },
       {
         "year": 2023,
         "points": 12,
-        "drivers": ["6434036c029640e5ce03076e","6434036c029640e5ce030774"]
+        "_id": ["6434036c029640e5ce03076e","6434036c029640e5ce030774"]
       }
-    ],
-  "__v": 0
+    ]
   },
 
   {
-    "_id": "6434036b029640e5ce030761",
     "teamName": "Scuderia Ferrari Mission Winnow",
     "teamID": 4,
     "previousNames": [
@@ -92,18 +85,16 @@
       {
         "year": 2022,
         "points": 554,
-        "drivers": ["6434036b029640e5ce03076a","6434036c029640e5ce03076d"]
+        "_id": ["6434036b029640e5ce03076a","6434036c029640e5ce03076d"]
       },
       {
         "year": 2023,
         "points": 26,
-        "drivers": ["6434036b029640e5ce03076a","6434036c029640e5ce03076d"]
+        "_id": ["6434036b029640e5ce03076a","6434036c029640e5ce03076d"]
       }
-    ],
-    "__v": 0
+    ]
   },
   {
-    "_id": "6434036b029640e5ce030762",
     "teamName": "Aston Martin Cognizant Formula One Team",
     "teamID": 5,
     "previousNames": [
@@ -119,20 +110,18 @@
       {
         "year": 2022,
         "points": 55,
-        "drivers": ["Sebastian Vettel","6434036c029640e5ce030770"]
+        "_id": ["Sebastian Vettel","6434036c029640e5ce030770"]
 
       },
       {
         "year": 2023,
         "points": 6,
-        "drivers": ["Fernando Alonso","6434036c029640e5ce030770"]
+        "_id": ["Fernando Alonso","6434036c029640e5ce030770"]
 
       }
-    ],
-    "__v": 0
+    ]
   },
   {
-    "_id": "6434036b029640e5ce030763",
     "teamName": "Haas F1 Team",
     "teamID": 6,
     "previousNames": [],
@@ -146,18 +135,16 @@
       {
         "year": 2022,
         "points": 37,
-        "drivers": ["Mick Schumacher","6434036c029640e5ce030772"]
+        "_id": ["Mick Schumacher","6434036c029640e5ce030772"]
       },
       {
         "year": 2023,
         "points": 7,
-        "drivers": ["6434036c029640e5ce030779","6434036c029640e5ce030772"]
+        "_id": ["6434036c029640e5ce030779","6434036c029640e5ce030772"]
       }
-    ],
-    "__v": 0
+    ]
   },
   {
-    "_id": "6434036b029640e5ce030765",
     "teamName": "Williams Racing",
     "teamID": 8,
     "previousNames": [],
@@ -171,19 +158,17 @@
       {
         "year": 2022,
         "points": 8,
-        "drivers": ["6434036c029640e5ce030771","Nicholas Latifi"]
+        "_id": ["6434036c029640e5ce030771","Nicholas Latifi"]
 
       },
       {
         "year": 2023,
         "points": 1,
-        "drivers": ["6434036c029640e5ce030771","6434036c029640e5ce030776"]
+        "_id": ["6434036c029640e5ce030771","6434036c029640e5ce030776"]
       }
-    ],
-    "__v": 0
+    ]
   },
   {
-    "_id": "6434036b029640e5ce030764",
     "teamName": "Alpine F1 Team",
     "teamID": 7,
     "previousNames": [
@@ -199,18 +184,16 @@
       {
         "year": 2022,
         "points": 173,
-        "drivers": ["6434036c029640e5ce03076f","6434036c029640e5ce03077a"]
+        "_id": ["6434036c029640e5ce03076f","6434036c029640e5ce03077a"]
       },
       {
         "year": 2023,
         "points": 8,
-        "drivers": ["6434036c029640e5ce030773","6434036c029640e5ce03077a"]
+        "_id": ["6434036c029640e5ce030773","6434036c029640e5ce03077a"]
       }
-    ],
-    "__v": 0
+    ]
   },
   {
-    "_id": "6434036b029640e5ce030766",
     "teamName": "Scuderia AlphaTauri Honda",
     "teamID": 10,
     "previousNames": [
@@ -226,18 +209,16 @@
       {
         "year": 2022,
         "points": 35,
-        "drivers": ["6434036c029640e5ce030778","6434036c029640e5ce030773"]
+        "_id": ["6434036c029640e5ce030778","6434036c029640e5ce030773"]
       },
       {
         "year": 2023,
         "points": 1,
-        "drivers": ["6434036c029640e5ce030778","6434036c029640e5ce030775"]
+        "_id": ["6434036c029640e5ce030778","6434036c029640e5ce030775"]
       }
-    ],
-    "__v": 0
+    ]
   },
   {
-    "_id": "6434036b029640e5ce030767",
     "teamName": "Alfa Romeo Racing ORLEN",
     "teamID": 9,
     "previousNames": [
@@ -253,14 +234,13 @@
       {
         "year": 2022,
         "points": 55,
-        "drivers": ["6434036b029640e5ce03076c","6434036c029640e5ce030777"]
+        "_id": ["6434036b029640e5ce03076c","6434036c029640e5ce030777"]
       },
       {
         "year": 2023,
         "points": 6,
-        "drivers": ["6434036b029640e5ce03076c","6434036c029640e5ce030777"]
+        "_id": ["6434036b029640e5ce03076c","6434036c029640e5ce030777"]
       }
-    ],
-    "__v": 0
+    ]
   }
 ]

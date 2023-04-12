@@ -27,6 +27,7 @@ let teamData = teams.map(item => {
   }
 });
 
+
 const insertData = async () => {
   try {
     // Reset Database
