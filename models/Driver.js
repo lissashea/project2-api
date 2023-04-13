@@ -13,8 +13,7 @@ const DriverSchema = new Schema({
   name: String,
   nationality: String,
   team: {
-    type: Schema.Types.ObjectId,
-    ref: 'Team'
+    type: Object
   },
   officialNumber: Number,
   podiums: Number,

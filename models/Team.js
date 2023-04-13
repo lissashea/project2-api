@@ -15,18 +15,18 @@ const pointsByYearSchema = new Schema({
 }, { _id: false });
 
 const TeamSchema = new Schema({
-  teamName: { type: String, required: true },
+  teamName: { type: String },
   teamID: { type: Number },
-  previousNames: { type: [String], required: false },
-  principal: { type: String, required: true },
-  owner: { type: String, required: true },
-  engine: { type: String, required: true },
-  country: { type: String, required: true },
-  championships: { type: Number, required: true },
-  teamLogo: { type: String, required: true },
+  previousNames: { type: [String] },
+  principal: { type: String },
+  owner: { type: String },
+  engine: { type: String },
+  country: { type: String },
+  championships: { type: Number },
+  teamLogo: { type: String},
   pointsByYear: [pointsByYearSchema]
 }, { _id: false });
 
-const Team = mongoose.model('Team', TeamSchema);
+const Team = mongoose.model('team', TeamSchema);
 
 export default Team;
