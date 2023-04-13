@@ -1,7 +1,7 @@
 import { Router } from "express";
 import driversRoutes from "./drivers.js";
 import teamsRoutes from "./teams.js";
-
+import Driver from "../models/Driver.js"
 
 const router = Router();
 
