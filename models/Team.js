@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
+import express from 'express'
 
-const { Schema } = mongoose;
+const Schema = mongoose.Schema
 
 const driverIdSchema = new Schema({
   driver1: { type: String },
@@ -26,4 +27,6 @@ const TeamSchema = new Schema({
   pointsByYear: [pointsByYearSchema]
 }, { _id: false });
 
-export default mongoose.model('teams', TeamSchema);
+const Team = mongoose.model('Team', TeamSchema);
+
+export default Team;

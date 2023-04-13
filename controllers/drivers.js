@@ -1,16 +1,25 @@
 import Driver from "../models/Driver.js";
 
-//getDrivers: Retrieves all drivers from the database.
+
+// getDrivers: Retrieves all drivers from the database.
+// export const getDrivers = async (req, res) => {
+//   try {
+//     const drivers = await Driver.find();
+//     res.json(drivers);
+//   } catch (error) {
+//     console.log(error.message);
+//     res.status(500).json({ error: error.message });
+//   }
+// };
 export const getDrivers = async (req, res) => {
   try {
-    const drivers = await Driver.find();
+    const drivers = await Driver.find().populate({ path: 'team', options: { strictPopulate: false } });
     res.json(drivers);
   } catch (error) {
     console.log(error.message);
     res.status(500).json({ error: error.message });
   }
 };
-
 //getDriverById: Retrieves a driver by their official number.
 export const getDriverById = async (req, res) => {
   try {
