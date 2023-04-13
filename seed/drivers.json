@@ -3,7 +3,7 @@
     "name": "Lewis Hamilton",
     "nationality": "British",
     "team": "Mercedes-AMG Petronas Formula One Team",
-    "teamID": 1,
+    "driverId": 44,
     "podiums": 192,
     "pointsByYear": [
       {
@@ -35,8 +35,8 @@
     "name": "Charles Leclerc",
     "nationality": "Monegasque",
     "team": "Scuderia Ferrari Mission Winnow",
-    "teamID": 4,
-    "podiums": 16,
+    "driverId": 16,
+    "podiums": 24,
     "pointsByYear": [
       {
         "year": 2020,
@@ -53,13 +53,13 @@
       {
         "year": 2022,
         "points": 308,
-        "teamName": "Scuderia Ferrari Mission Winnow",
+        "teamName": "Scuderia Ferrari Mission Winnow"
 
       },
       {
         "year": 2023,
         "points": 6,
-        "teamName": "Scuderia Ferrari Mission Winnow",
+        "teamName": "Scuderia Ferrari Mission Winnow"
 
       }
     ],
@@ -69,23 +69,23 @@
     "name": "Max Verstappen",
     "nationality": "Dutch",
     "team": "Red Bull Racing Honda",
-    "teamID": 2,
+    "driverId": 1,
     "podiums": 51,
     "pointsByYear": [
       {
         "year": 2020,
         "points": 214,
-        "teamName": "Red Bull Racing Honda",
+        "teamName": "Red Bull Racing Honda"
       },
       {
         "year": 2021,
         "points": 395,
-        "teamName": "Red Bull Racing Honda",
+        "teamName": "Red Bull Racing Honda"
       },
       {
         "year": 2022,
         "points": 454,
-        "teamName": "Red Bull Racing Honda",
+        "teamName": "Red Bull Racing Honda"
       },
       {
         "year": 2023,
@@ -97,11 +97,10 @@
 
   },
   {
-    "_id": "6434036b029640e5ce03076c",
     "name": "Valtteri Bottas",
     "nationality": "Finnish",
     "team": "Alfa Romeo Racing ORLEN",
-    "teamID": 9,
+    "driverId": 77,
     "podiums": 58,
     "pointsByYear": [
       {
@@ -132,7 +131,7 @@
     "name": "Carlos Sainz",
     "nationality": "Spanish",
     "team": "Scuderia Ferrari Mission Winnow",
-    "teamID": 4,
+    "driverId": 55,
     "podiums": 10,
     "pointsByYear": [
       {
@@ -158,8 +157,8 @@
     "name": "Lando Norris",
     "nationality": "British",
     "team": "McLaren F1 Team",
-    "teamID": 3,
-    "podiums": 6,
+    "driverId": 6,
+    "podiums": 5,
     "pointsByYear": [
       {
         "year": 2021,
@@ -185,7 +184,7 @@
     "name": "Fernando Alonso",
     "nationality": "Spanish",
     "team": "Aston Martin Cognizant Formula One Team",
-    "teamID": 5,
+    "driverId": 14,
     "podiums": 97,
     "pointsByYear": [
       {
@@ -211,7 +210,7 @@
     "name": "Lance Stroll",
     "nationality": "Canadian",
     "team": "Aston Martin Cognizant Formula One Team",
-    "teamID": 5,
+    "driverId": 18,
     "podiums": 3,
     "pointsByYear": [
       {
@@ -242,7 +241,7 @@
     "name": "Alexander Albon",
     "nationality": "Thai",
     "team": "Williams Racing",
-    "teamID": 8,
+    "driverId": 23,
     "podiums": 2,
     "pointsByYear": [
       {
@@ -263,7 +262,7 @@
     "name": "Kevin Magnussen",
     "nationality": "Danish",
     "team": "Haas F1 Team",
-    "teamID": 6,
+    "driverId": 20,
     "podiums": 1,
     "pointsByYear": [
       {
@@ -283,28 +282,28 @@
     "name": "Pierre Gasly",
     "nationality": "French",
     "team": "Alpine F1 Team",
-    "teamID": 7,
+    "driverId": 10,
     "podiums": 2,
     "pointsByYear": [
       {
         "year": 2020,
         "points": 75,
-        "teamName": "Scuderia AlphaTauri Honda",
+        "teamName": "Scuderia AlphaTauri Honda"
       },
       {
         "year": 2021,
         "points": 110,
-        "teamName": "Scuderia AlphaTauri Honda",
+        "teamName": "Scuderia AlphaTauri Honda"
       },
       {
         "year": 2022,
         "points": 23,
-        "teamName": "Scuderia AlphaTauri Honda",
+        "teamName": "Scuderia AlphaTauri Honda"
       },
       {
         "year": 2023,
         "points": 4,
-        "teamName": "Alpine F1 Team",
+        "teamName": "Alpine F1 Team"
       }
     ],
     "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png.transform/2col-retina/image.png"
@@ -314,7 +313,7 @@
     "name": "Oscar Piastri",
     "nationality": "Australian",
     "team": "McLaren F1 Team",
-    "teamID": 3,
+    "driverId": 7,
     "podiums": 0,
     "pointsByYear": [
       {
@@ -330,7 +329,7 @@
     "name": "Nyck de Vries",
     "nationality": "Dutch",
     "team": "Scuderia AlphaTauri Honda",
-    "teamID": 10,
+    "driverId": 0,
     "podiums": 0,
     "pointsByYear": [
       {
@@ -346,13 +345,13 @@
     "name": "Logan Sargeant",
     "nationality": "American",
     "team": "Williams Racing",
-    "teamID": 8,
+    "driverId": 16,
     "podiums": 0,
     "pointsByYear": [
       {
         "year": 2023,
         "points": 0,
-        "teamName": "Williams Racing",
+        "teamName": "Williams Racing"
       }
     ],
     "image": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LOGSAR01_Logan_Sargeant/logsar01.png.transform/2col-retina/image.png"
@@ -362,7 +361,7 @@
     "name": "Guanyu Zhou",
     "nationality": "Chinese",
     "team": "Alfa Romeo Racing ORLEN",
-    "teamID": 9,
+    "driverId": 24,
     "podiums": 0,
     "pointsByYear": [
       {
@@ -383,7 +382,7 @@
     "name": "Yuki Tsunoda",
     "nationality": "Japanese",
     "team": "Scuderia AlphaTauri Honda",
-    "teamID": 10,
+    "driverId": 22,
     "podiums": 0,
     "pointsByYear": [
       {
@@ -409,7 +408,7 @@
     "name": "Nico Hulkenberg",
     "nationality": "German",
     "team": "Haas F1 Team",
-    "teamID": 6,
+    "driverId": 15,
     "podiums": 0,
     "pointsByYear": [
       {
@@ -430,7 +429,7 @@
     "name": "Esteban Ocon",
     "nationality": "French",
     "team": "Alpine F1 Team",
-    "teamID": 7,
+    "driverId": 31,
     "podiums": 2,
     "pointsByYear": [
       {
@@ -461,7 +460,7 @@
     "name": "George Russell",
     "nationality": "British",
     "team": "Mercedes-AMG Petronas Formula One Team",
-    "teamID": 1,
+    "driverId": 63,
     "podiums": 0,
     "pointsByYear": [
       {
@@ -486,7 +485,7 @@
     "name": "Sergio Perez",
     "nationality": "Mexican",
     "team": "Red Bull Racing Honda",
-    "teamID": 2,
+    "driverId": 11,
     "podiums": 20,
     "pointsByYear": [
       {
@@ -516,13 +515,14 @@
   {
     "name": "Daniel Ricciardo",
     "team": "Not applicable",
+    "driverId": 5,
     "nationality": "Australian",
 		"podiums": 32,
 		"pointsByYear": [
 			{
 				"year": 2022,
 				"points": 37,
-        "teamName": "McLaren F1 Team",
+        "teamName": "McLaren F1 Team"
 			}
 		],
 		"image": "https://cdn-3.motorsport.com/images/mgl/Y9oBpLx0/s800/f1-australian-gp-2017-daniel-ricciardo-red-bull-racing.jpg"
@@ -530,6 +530,7 @@
   {
 		"name": "Mick Schumacher",
 		"team": "Not applicable",
+    "driverId": 47,
     "nationality": "German",
 		"podiums": 0,
 		"pointsByYear": [

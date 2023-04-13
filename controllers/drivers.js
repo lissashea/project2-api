@@ -10,11 +10,9 @@ export const getDrivers = async (req, res) => {
   }
 };
 
-export const getDriver = async (req, res) => {
+export const getDriverById = async (req, res) => {
   try {
-    const { id } = req.params;
-
-    const driver = await Driver.findById(id);
+    const driver = await Driver.findOne({ driverId: `${req.params.driverId}` });
     res.json(driver);
   } catch (error) {
     console.log(error.message);

@@ -1,33 +1,46 @@
 import db from "../db/connection.js";
 import Team from "../models/Team.js";
 import Driver from "../models/Driver.js";
-import teams from "./teams" assert { type: "json" };
-import drivers from "./drivers" assert { type: "json" };
+import teams from "./teams.json" assert { type: "json" };
+import drivers from "./drivers.json" assert { type: "json" };
+
+// let driverData = drivers.map(item => {
+//   return {
+//   name: item.name,
+//   driverId: item.driverId,
+//   team: item.team,
+//   podiums: item.podiums,
+//   credit: item.copyright,
+//   pointsByYear: item.pointsByYear,
+//   image: item.image,
+//   }
+// });
+
+// let teamData = teams.map(item => {
+//   return {
+//     teamName: item.teamName,
+//     owner: item.owner,
+//     principal: item.principal,
+//     engine: item.engine,
+//     championships: item.championships,
+//     pointsByYear: item.pointsByYear,
+//   }
+// });
 
 const insertData = async () => {
   try {
-    // Connect to the database
-    await db.connect();
+    // Reset Database
+    await db.dropDatabase();
 
-    // Insert Teams into the Database
-    const insertedTeams = await Team.insertMany(teams);
-    console.log(`Inserted ${insertedTeams.length} teams`);
+    // Insert Drivers & Teams into the Database
+    await Driver.insertMany(drivers);
+    await Team.insertMany(teams);
 
-    // Insert Drivers into the Database
-    for (let driver of drivers) {
-      const team = insertedTeams.find((t) => t.teamName === driver.team);
-      driver.team = team._id;
-      await Driver.create(driver);
-    }
-    console.log(`Inserted ${drivers.length} drivers`);
-
-    // Close the database connection
-    await db.disconnect();
+    // Close DB connection
+    await db.close();
   } catch (error) {
     console.error(error);
   }
 };
 
-insertData();
-
-export default insertData;
+export default insertData();

@@ -10,11 +10,9 @@ export const getTeams = async (req, res) => {
   }
 };
 
-export const getTeam = async (req, res) => {
+export const getTeamById = async (req, res) => {
   try {
-    const { id } = req.params;
-
-    const team = await Team.findById(id);
+    const team = await Team.findOne({ teamID: `${req.params.teamId}` });
     res.json(team);
   } catch (error) {
     console.log(error.message);

@@ -1,37 +1,45 @@
-import mongoose from "mongoose";
-const Schema = mongoose.Schema;
+import mongoose from 'mongoose';
 
-const pointsByYear = new Schema(
-  {
-    _id: {
-      type: String
+const { Schema } = mongoose;
+
+const pointsByYearSchema = new Schema ({
+      year: {
+        type: Number
+      },
+      points: {
+        type: Number
+      },
+      teamName: {
+        type: String
+      },
     },
-    year: {
-      type: Number,
-      default: 2022,
-    },
-    points: {
-      type: Number
-    },
+    { _id: false }
+  )
+
+const DriverSchema = new Schema({
+  name: {
+    type: String
+    
   },
-  { _id: false }
-);
-
-let driverSchema = new Schema({
-  name: { type: String },
-  nationality: { type: String },
-  team: { type: String },
-  teamID: { type: Number },
-  podiums: { type: Number },
-  pointsByYear: [pointsByYear],
-  image: { type: String },
+  nationality: {
+    type: String
+   
+  },
+  team: {
+    type: String
+    
+  },
+  driverId: {
+    type: Number
+  },
+  podiums: {
+    type: Number
+  },
+  pointsByYear:[pointsByYearSchema],
+  
+  image: {
+    type: String
+  },
 });
 
-driverSchema.virtual("teamName", {
-  ref: "Team",
-  localField: "team",
-  foreignField: "_id",
-  justOne: true,
-});
-
-export default mongoose.model("drivers", driverSchema);
+export default mongoose.model('drivers', DriverSchema);

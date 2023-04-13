@@ -1,34 +1,76 @@
-import mongoose from "mongoose";
-const Schema = mongoose.Schema;
+import mongoose from 'mongoose';
 
-const pointsByYear = new Schema(
-  {
+const { Schema } = mongoose;
+
+const driverIdSchema = new Schema({
+  driver1: {
+    type: Number
+    
+  },
+  driver2:  {
+    type: Number
+  },
+},
+{ _id: false }
+)
+
+const pointsByYearSchema = new Schema({ 
     year: {
       type: Number,
-      required: false,
-      default: 2022,
+      required: true,
     },
     points: {
-      type: Number
+      type: Number,
+      required: true,
     },
-    drivers: {
-      type: [String]
-    }
+    drivers: [driverIdSchema],
   },
-  { _id: false }
-);
+{ _id: false }
+)
 
-const Team = new Schema({
-  teamName: { type: String },
-  // teamID: { type: Number },
-  // previousNames: [{ type: String }],
-  principal: { type: String },
-  owner: { type: String },
-  engine: { type: String },
-  country: { type: String },
-  championships: { type: Number },
-  teamLogo: { type: String },
-  pointsByYear: [pointsByYear]
-});
 
-export default mongoose.model("teams", Team);
+
+const TeamSchema = new Schema({
+  teamName: {
+    type: String,
+    required: true,
+  },
+  teamID: {
+    type: Number
+  },
+  previousNames: {
+    type: [String],
+    required: false,
+  },
+  principal: {
+    type: String,
+    required: true,
+  },
+  owner: {
+    type: String,
+    required: true,
+  },
+  engine: {
+    type: String,
+    required: true,
+  },
+  country: {
+    type: String,
+    required: true,
+  },
+  championships: {
+    type: Number,
+    required: true,
+  },
+  teamLogo: {
+    type: String,
+    required: true,
+  },
+  pointsByYear: [pointsByYearSchema],
+},
+{ _id: false }
+)
+
+
+export default mongoose.model('teams', TeamSchema);
+

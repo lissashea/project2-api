@@ -5,7 +5,7 @@
     "previousNames": [],
     "principal": "Toto Wolff",
     "owner": "Daimler AG",
-    "engine": "Mercedes",
+    "engine": "Mercedes", 
     "country": "Germany",
     "championships": 8,
     "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes.jpg",
@@ -13,12 +13,18 @@
       {
         "year": 2022,
         "points": 515,
-        "_id": ["6434036b029640e5ce030769","6434036c029640e5ce03077b"]
+        "drivers": {
+          "driver1": 44,
+          "driver2": 63
+        }
       },
       {
         "year": 2023,
         "points": 56,
-        "_id": ["6434036b029640e5ce030769","6434036c029640e5ce03077b"]
+        "drivers": {
+          "driver1": 44,
+          "driver2": 63
+        }
       }
     ]
   },
@@ -36,12 +42,18 @@
       {
         "year": 2022,
         "points": 759,
-        "_id": ["6434036b029640e5ce03076b","6434036c029640e5ce03077c"]
+        "drivers": {
+          "driver1": 1,
+          "driver2": 11
+        }
       },
       {
         "year": 2023,
         "points": 123,
-        "_id": ["6434036b029640e5ce03076b","6434036c029640e5ce03077c"]
+        "drivers": {
+          "driver1": 1,
+          "driver2": 11
+        }
       }
     ]
   },
@@ -59,12 +71,18 @@
       {
         "year": 2022,
         "points": 159,
-        "_id": ["6434036c029640e5ce03076e","64369f897a56459294642d87"]
+        "drivers": {
+          "driver1": 5,
+          "driver2": 6
+        }
       },
       {
         "year": 2023,
         "points": 12,
-        "_id": ["6434036c029640e5ce03076e","6434036c029640e5ce030774"]
+        "drivers": {
+          "driver1": 7,
+          "driver2": 6
+        }
       }
     ]
   },
@@ -85,12 +103,18 @@
       {
         "year": 2022,
         "points": 554,
-        "_id": ["6434036b029640e5ce03076a","6434036c029640e5ce03076d"]
+        "drivers": {
+          "driver1": 16,
+          "driver2": 55
+        }
       },
       {
         "year": 2023,
         "points": 26,
-        "_id": ["6434036b029640e5ce03076a","6434036c029640e5ce03076d"]
+        "drivers": {
+          "driver1": 16,
+          "driver2": 55
+        }
       }
     ]
   },
@@ -110,13 +134,19 @@
       {
         "year": 2022,
         "points": 55,
-        "_id": ["Sebastian Vettel","6434036c029640e5ce030770"]
+        "drivers": {
+          "driver1": 15,
+          "driver2": 18
+        }
 
       },
       {
         "year": 2023,
         "points": 6,
-        "_id": ["Fernando Alonso","6434036c029640e5ce030770"]
+        "drivers": {
+          "driver1": 14,
+          "driver2": 18
+        }
 
       }
     ]
@@ -135,12 +165,18 @@
       {
         "year": 2022,
         "points": 37,
-        "_id": ["Mick Schumacher","6434036c029640e5ce030772"]
+        "drivers": {
+          "driver1": 20,
+          "driver2": 47
+        }
       },
       {
         "year": 2023,
         "points": 7,
-        "_id": ["6434036c029640e5ce030779","6434036c029640e5ce030772"]
+        "drivers": {
+          "driver1": 20,
+          "driver2": 27
+        }
       }
     ]
   },
@@ -158,13 +194,19 @@
       {
         "year": 2022,
         "points": 8,
-        "_id": ["6434036c029640e5ce030771","Nicholas Latifi"]
+        "drivers": {
+          "driver1": 6,
+          "driver2": 23
+        }
 
       },
       {
         "year": 2023,
         "points": 1,
-        "_id": ["6434036c029640e5ce030771","6434036c029640e5ce030776"]
+        "drivers": {
+          "driver1": 2,
+          "driver2": 23
+        }
       }
     ]
   },
@@ -184,12 +226,18 @@
       {
         "year": 2022,
         "points": 173,
-        "_id": ["6434036c029640e5ce03076f","6434036c029640e5ce03077a"]
+        "drivers": {
+          "driver1": 14,
+          "driver2":31
+        }
       },
       {
         "year": 2023,
         "points": 8,
-        "_id": ["6434036c029640e5ce030773","6434036c029640e5ce03077a"]
+        "drivers": {
+          "driver1": 10,
+          "driver2": 31
+        }
       }
     ]
   },
@@ -209,12 +257,18 @@
       {
         "year": 2022,
         "points": 35,
-        "_id": ["6434036c029640e5ce030778","6434036c029640e5ce030773"]
+        "drivers": {
+          "driver1": 10,
+          "driver2": 22
+        }
       },
       {
         "year": 2023,
         "points": 1,
-        "_id": ["6434036c029640e5ce030778","6434036c029640e5ce030775"]
+        "drivers": {
+          "driver1": 22,
+          "driver2": 0
+        }
       }
     ]
   },
@@ -234,12 +288,18 @@
       {
         "year": 2022,
         "points": 55,
-        "_id": ["6434036b029640e5ce03076c","6434036c029640e5ce030777"]
+        "drivers": {
+          "driver1": 24,
+          "driver2": 77
+        }
       },
       {
         "year": 2023,
         "points": 6,
-        "_id": ["6434036b029640e5ce03076c","6434036c029640e5ce030777"]
+        "drivers": {
+          "driver1":  24,
+          "driver2": 77
+        }
       }
     ]
   }
