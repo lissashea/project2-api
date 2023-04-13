@@ -5,7 +5,7 @@
     "previousNames": [],
     "principal": "Toto Wolff",
     "owner": "Daimler AG",
-    "engine": "Mercedes", 
+    "engine": "Mercedes",
     "country": "Germany",
     "championships": 8,
     "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes.jpg",
@@ -90,9 +90,7 @@
   {
     "teamName": "Scuderia Ferrari Mission Winnow",
     "teamID": 4,
-    "previousNames": [
-      "Scuderia Ferrari Marlboro"
-    ],
+    "previousNames": ["Scuderia Ferrari Marlboro"],
     "principal": "Frédéric Vasseur",
     "owner": "Fiat Chrysler Automobiles",
     "engine": "Ferrari",
@@ -121,9 +119,7 @@
   {
     "teamName": "Aston Martin Cognizant Formula One Team",
     "teamID": 5,
-    "previousNames": [
-      "Racing Point F1 Team"
-    ],
+    "previousNames": ["Racing Point F1 Team"],
     "principal": "Otmar Szafnauer",
     "owner": "Lawrence Stroll",
     "engine": "Mercedes",
@@ -138,7 +134,6 @@
           "driver1": "Nico Hulkenberg",
           "driver2": "Lance Stroll"
         }
-
       },
       {
         "year": 2023,
@@ -147,7 +142,6 @@
           "driver1": "Fernando Alonso",
           "driver2": "Lance Stroll"
         }
-
       }
     ]
   },
@@ -198,7 +192,6 @@
           "driver1": "Nicholas Latif",
           "driver2": "Alexander Albon"
         }
-
       },
       {
         "year": 2023,
@@ -213,9 +206,7 @@
   {
     "teamName": "Alpine F1 Team",
     "teamID": 7,
-    "previousNames": [
-      "Renault F1 Team"
-    ],
+    "previousNames": ["Renault F1 Team"],
     "principal": "Davide Brivio",
     "owner": "Groupe Renault",
     "engine": "Renault",
@@ -228,7 +219,7 @@
         "points": 173,
         "drivers": {
           "driver1": "Fernando Alonso",
-          "driver2":"Esteban Ocon"
+          "driver2": "Esteban Ocon"
         }
       },
       {
@@ -244,9 +235,7 @@
   {
     "teamName": "Scuderia AlphaTauri Honda",
     "teamID": 10,
-    "previousNames": [
-      "Scuderia Toro Rosso"
-    ],
+    "previousNames": ["Scuderia Toro Rosso"],
     "principal": "Franz Tost",
     "owner": "Red Bull GmbH",
     "engine": "Honda",
@@ -275,9 +264,7 @@
   {
     "teamName": "Alfa Romeo Racing ORLEN",
     "teamID": 9,
-    "previousNames": [
-      "Sauber"
-    ],
+    "previousNames": ["Sauber"],
     "principal": "Alessandro Alunni Bravi",
     "owner": "Sauber Motorsport AG",
     "engine": "Ferrari",
@@ -297,7 +284,7 @@
         "year": 2023,
         "points": 6,
         "drivers": {
-          "driver1":  "Guanyu Zhou",
+          "driver1": "Guanyu Zhou",
           "driver2": "Valtteri Bottas"
         }
       }

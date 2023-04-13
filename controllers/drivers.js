@@ -1,5 +1,6 @@
 import Driver from "../models/Driver.js";
 
+//getDrivers: Retrieves all drivers from the database.
 export const getDrivers = async (req, res) => {
   try {
     const drivers = await Driver.find();
@@ -10,6 +11,7 @@ export const getDrivers = async (req, res) => {
   }
 };
 
+//getDriverById: Retrieves a driver by their official number.
 export const getDriverById = async (req, res) => {
   try {
     const driver = await Driver.findOne({ driverId: req.params.officialNumber });
@@ -20,6 +22,7 @@ export const getDriverById = async (req, res) => {
   }
 };
 
+// getDriverByFirstName: Retrieves a driver by their first name.
 export const getDriverByFirstName = async (req, res) => {
   try {
     const driver = await Driver.findOne({ name: { $regex: new RegExp("^" + req.params.firstName, "i") } });
@@ -30,6 +33,7 @@ export const getDriverByFirstName = async (req, res) => {
   }
 };
 
+// createDriver: Creates a new driver in the database.
 export const createDriver = async (req, res) => {
   try {
     const driver = new Driver(req.body);
@@ -41,12 +45,14 @@ export const createDriver = async (req, res) => {
   }
 };
 
+//updateDriver: Updates a driver in the database by their ID.
 export const updateDriver = async (req, res) => {
   const { id } = req.params;
   const driver = await Driver.findByIdAndUpdate(id, req.body);
   res.status(200).json(team);
 };
 
+//deleteDriverById: Deletes a driver from the database by their ID.
 export const deleteDriverById = async (req, res) => {
   try {
     const { driverId } = req.params;

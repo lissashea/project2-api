@@ -2,44 +2,20 @@ import mongoose from 'mongoose';
 
 const { Schema } = mongoose;
 
-const pointsByYearSchema = new Schema ({
-      year: {
-        type: Number
-      },
-      points: {
-        type: Number
-      },
-      teamName: {
-        type: String
-      },
-    },
-    { _id: false }
-  )
+const pointsByYearSchema = new Schema({
+  year: Number,
+  points: Number,
+  teamName: String
+}, { _id: false });
 
 const DriverSchema = new Schema({
-  name: {
-    type: String
-    
-  },
-  nationality: {
-    type: String
-   
-  },
-  team: {
-    type: String
-    
-  },
-  officialNumber: {
-    type: Number
-  },
-  podiums: {
-    type: Number
-  },
-  pointsByYear:[pointsByYearSchema],
-  
-  image: {
-    type: String
-  },
+  name: String,
+  nationality: String,
+  team: String,
+  officialNumber: Number,
+  podiums: Number,
+  pointsByYear: [pointsByYearSchema],
+  image: String
 });
 
 export default mongoose.model('drivers', DriverSchema);
