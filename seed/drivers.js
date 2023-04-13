@@ -1,7 +1,7 @@
-import Driver from '../models/Driver.js'
-import driverData from './drivers.json'
+import Driver from '../models/Driver.js';
+import driverData from './drivers.json';
 
-const seedDrivers = () => {
+const seedDrivers = async () => {
   const drivers = driverData.map((driver) => ({
     name: driver.name,
     nationality: driver.nationality,
@@ -12,10 +12,13 @@ const seedDrivers = () => {
     image: driver.image
   }));
 
-  return Driver.deleteMany({})
-    .then(() => Driver.create(drivers))
-    .then(() => console.log("Driver collection seeded!"))
-    .catch((error) => console.log("Error seeding Driver collection:", error));
+  try {
+    await Driver.deleteMany({});
+    await Driver.create(drivers);
+    console.log("Driver collection seeded!");
+  } catch (error) {
+    console.log("Error seeding Driver collection:", error);
+  }
 };
 
-module.exports = seedDrivers;
+export default seedDrivers;
