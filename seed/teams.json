@@ -80,7 +80,7 @@
         "year": 2023,
         "points": 12,
         "drivers": {
-          "driver1": 7,
+          "driver1": "Lando Norris",
           "driver2": "Oscar Piastri"
         }
       }
@@ -144,8 +144,8 @@
         "year": 2023,
         "points": 6,
         "drivers": {
-          "name": "Fernando Alonso"
-          "driver2": 18
+          "driver1": "Fernando Alonso",
+          "driver2": "Lance Stroll"
         }
 
       }
@@ -166,16 +166,16 @@
         "year": 2022,
         "points": 37,
         "drivers": {
-          "driver1": 20,
-          "driver2": 47
+          "driver1": "Kevin Magnussen",
+          "driver2": "Mick Schumacher"
         }
       },
       {
         "year": 2023,
         "points": 7,
         "drivers": {
-          "driver1": 20,
-          "driver2": 27
+          "driver1": "Kevin Magnussen",
+          "driver2": "Nico Hulkenberg"
         }
       }
     ]
@@ -195,8 +195,8 @@
         "year": 2022,
         "points": 8,
         "drivers": {
-          "driver1": 6,
-          "driver2": 23
+          "driver1": "Nicholas Latif",
+          "driver2": "Alexander Albon"
         }
 
       },
@@ -204,8 +204,8 @@
         "year": 2023,
         "points": 1,
         "drivers": {
-          "driver1": 2,
-          "driver2": 23
+          "driver1": "Logan Sargeant",
+          "driver2": "Alexander Albon"
         }
       }
     ]
