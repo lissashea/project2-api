@@ -29,7 +29,7 @@ const DriverSchema = new Schema({
     type: String
     
   },
-  driverId: {
+  officialNumber: {
     type: Number
   },
   podiums: {

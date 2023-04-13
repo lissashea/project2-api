@@ -3,7 +3,7 @@
     "name": "Lewis Hamilton",
     "nationality": "British",
     "team": "Mercedes-AMG Petronas Formula One Team",
-    "driverId": 44,
+    "officalNumber": 44,
     "podiums": 192,
     "pointsByYear": [
       {
@@ -35,7 +35,7 @@
     "name": "Charles Leclerc",
     "nationality": "Monegasque",
     "team": "Scuderia Ferrari Mission Winnow",
-    "driverId": 16,
+    "officialNumber": 16,
     "podiums": 24,
     "pointsByYear": [
       {
@@ -69,7 +69,7 @@
     "name": "Max Verstappen",
     "nationality": "Dutch",
     "team": "Red Bull Racing Honda",
-    "driverId": 1,
+    "officialNumber": 1,
     "podiums": 51,
     "pointsByYear": [
       {
@@ -100,7 +100,7 @@
     "name": "Valtteri Bottas",
     "nationality": "Finnish",
     "team": "Alfa Romeo Racing ORLEN",
-    "driverId": 77,
+    "officialNumber": 77,
     "podiums": 58,
     "pointsByYear": [
       {
@@ -131,7 +131,7 @@
     "name": "Carlos Sainz",
     "nationality": "Spanish",
     "team": "Scuderia Ferrari Mission Winnow",
-    "driverId": 55,
+    "officialNumber": 55,
     "podiums": 10,
     "pointsByYear": [
       {
@@ -157,7 +157,7 @@
     "name": "Lando Norris",
     "nationality": "British",
     "team": "McLaren F1 Team",
-    "driverId": 6,
+    "officialNumber": 6,
     "podiums": 5,
     "pointsByYear": [
       {
@@ -184,7 +184,7 @@
     "name": "Fernando Alonso",
     "nationality": "Spanish",
     "team": "Aston Martin Cognizant Formula One Team",
-    "driverId": 14,
+    "officialNumber": 14,
     "podiums": 97,
     "pointsByYear": [
       {
@@ -210,7 +210,7 @@
     "name": "Lance Stroll",
     "nationality": "Canadian",
     "team": "Aston Martin Cognizant Formula One Team",
-    "driverId": 18,
+    "officialNumber": 18,
     "podiums": 3,
     "pointsByYear": [
       {
@@ -241,7 +241,7 @@
     "name": "Alexander Albon",
     "nationality": "Thai",
     "team": "Williams Racing",
-    "driverId": 23,
+    "officialNumber": 23,
     "podiums": 2,
     "pointsByYear": [
       {
@@ -262,7 +262,7 @@
     "name": "Kevin Magnussen",
     "nationality": "Danish",
     "team": "Haas F1 Team",
-    "driverId": 20,
+    "officialNumber": 20,
     "podiums": 1,
     "pointsByYear": [
       {
@@ -282,7 +282,7 @@
     "name": "Pierre Gasly",
     "nationality": "French",
     "team": "Alpine F1 Team",
-    "driverId": 10,
+    "officialNumber": 10,
     "podiums": 2,
     "pointsByYear": [
       {
@@ -313,7 +313,7 @@
     "name": "Oscar Piastri",
     "nationality": "Australian",
     "team": "McLaren F1 Team",
-    "driverId": 7,
+    "officialNumber": 7,
     "podiums": 0,
     "pointsByYear": [
       {
@@ -329,7 +329,7 @@
     "name": "Nyck de Vries",
     "nationality": "Dutch",
     "team": "Scuderia AlphaTauri Honda",
-    "driverId": 0,
+    "officialNumber": 0,
     "podiums": 0,
     "pointsByYear": [
       {
@@ -345,7 +345,7 @@
     "name": "Logan Sargeant",
     "nationality": "American",
     "team": "Williams Racing",
-    "driverId": 16,
+    "officialNumber": 2,
     "podiums": 0,
     "pointsByYear": [
       {
@@ -361,7 +361,7 @@
     "name": "Guanyu Zhou",
     "nationality": "Chinese",
     "team": "Alfa Romeo Racing ORLEN",
-    "driverId": 24,
+    "officialNumber": 24,
     "podiums": 0,
     "pointsByYear": [
       {
@@ -382,7 +382,7 @@
     "name": "Yuki Tsunoda",
     "nationality": "Japanese",
     "team": "Scuderia AlphaTauri Honda",
-    "driverId": 22,
+    "officialNumber": 22,
     "podiums": 0,
     "pointsByYear": [
       {
@@ -408,7 +408,7 @@
     "name": "Nico Hulkenberg",
     "nationality": "German",
     "team": "Haas F1 Team",
-    "driverId": 15,
+    "officialNumber": 27,
     "podiums": 0,
     "pointsByYear": [
       {
@@ -429,7 +429,7 @@
     "name": "Esteban Ocon",
     "nationality": "French",
     "team": "Alpine F1 Team",
-    "driverId": 31,
+    "officialNumber": 31,
     "podiums": 2,
     "pointsByYear": [
       {
@@ -460,7 +460,7 @@
     "name": "George Russell",
     "nationality": "British",
     "team": "Mercedes-AMG Petronas Formula One Team",
-    "driverId": 63,
+    "officialNumber": 63,
     "podiums": 0,
     "pointsByYear": [
       {
@@ -485,7 +485,7 @@
     "name": "Sergio Perez",
     "nationality": "Mexican",
     "team": "Red Bull Racing Honda",
-    "driverId": 11,
+    "officialNumber": 11,
     "podiums": 20,
     "pointsByYear": [
       {
@@ -515,7 +515,7 @@
   {
     "name": "Daniel Ricciardo",
     "team": "Not applicable",
-    "driverId": 5,
+    "officialNumber": 5,
     "nationality": "Australian",
 		"podiums": 32,
 		"pointsByYear": [
@@ -530,7 +530,7 @@
   {
 		"name": "Mick Schumacher",
 		"team": "Not applicable",
-    "driverId": 47,
+    "officialNumber": 47,
     "nationality": "German",
 		"podiums": 0,
 		"pointsByYear": [

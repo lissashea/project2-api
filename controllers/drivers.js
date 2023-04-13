@@ -12,7 +12,17 @@ export const getDrivers = async (req, res) => {
 
 export const getDriverById = async (req, res) => {
   try {
-    const driver = await Driver.findOne({ driverId: `${req.params.driverId}` });
+    const driver = await Driver.findOne({ driverId: req.params.driverId });
+    res.json(driver);
+  } catch (error) {
+    console.log(error.message);
+    res.status(500).json({ error: error.message });
+  }
+};
+
+export const getDriverByFirstName = async (req, res) => {
+  try {
+    const driver = await Driver.findOne({ name: { $regex: new RegExp("^" + req.params.firstName, "i") } });
     res.json(driver);
   } catch (error) {
     console.log(error.message);
@@ -37,10 +47,10 @@ export const updateDriver = async (req, res) => {
   res.status(200).json(team);
 };
 
-export const deleteDriver = async (req, res) => {
+export const deleteDriverById = async (req, res) => {
   try {
-    const { id } = req.params;
-    const deleted = await Driver.findByIdAndDelete(id);
+    const { driverId } = req.params;
+    const deleted = await Driver.findByIdAndDelete(driverId);
 
     if (deleted) {
       return res.status(200).send("Driver Deleted!");

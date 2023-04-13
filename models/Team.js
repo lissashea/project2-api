@@ -1,34 +1,38 @@
 import mongoose from 'mongoose';
+import Driver from './Driver.js';
 
 const { Schema } = mongoose;
 
 const driverIdSchema = new Schema({
-  driver1: {
-    type: Number
-    
+  driverNumber: {
+    type: Number,
+    required: true,
   },
-  driver2:  {
-    type: Number
+  driver: {
+    type: Schema.Types.Number,
+    ref: "Driver",
   },
-},
-{ _id: false }
-)
+}, { _id: false });
+
 
 const pointsByYearSchema = new Schema({ 
-    year: {
-      type: Number,
-      required: true,
-    },
-    points: {
-      type: Number,
-      required: true,
-    },
-    drivers: [driverIdSchema],
+  year: {
+    type: Number,
+    required: true,
   },
-{ _id: false }
-)
-
-
+  points: {
+    type: Number,
+    required: true,
+  },
+  drivers: [
+    {
+      driverId: {
+      type: Number,
+      ref: "Driver",
+      },
+    },
+  ],
+}, { _id: false });
 
 const TeamSchema = new Schema({
   teamName: {
@@ -70,6 +74,16 @@ const TeamSchema = new Schema({
 },
 { _id: false }
 )
+
+// TeamSchema.pre('findOne', function(next) {
+//   this.populate({
+//     path: 'pointsByYear.drivers.driverId',
+//     select: 'driverNumber name nationality',
+//     model: 'Driver',
+//   });
+//   next();
+// });
+
 
 
 export default mongoose.model('teams', TeamSchema);

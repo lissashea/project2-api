@@ -14,16 +14,16 @@
         "year": 2022,
         "points": 515,
         "drivers": {
-          "driver1": 44,
-          "driver2": 63
+          "driver1": "Lewis Hamilton",
+          "driver2": "George Russel"
         }
       },
       {
         "year": 2023,
         "points": 56,
         "drivers": {
-          "driver1": 44,
-          "driver2": 63
+          "driver1": "Lewis Hamilton",
+          "driver2": "George Russel"
         }
       }
     ]
@@ -43,16 +43,16 @@
         "year": 2022,
         "points": 759,
         "drivers": {
-          "driver1": 1,
-          "driver2": 11
+          "driver1": "Max Verstappen",
+          "driver2": "Sergio Perez"
         }
       },
       {
         "year": 2023,
         "points": 123,
         "drivers": {
-          "driver1": 1,
-          "driver2": 11
+          "driver1": "Max Verstappen",
+          "driver2": "Sergio Perez"
         }
       }
     ]
@@ -72,8 +72,8 @@
         "year": 2022,
         "points": 159,
         "drivers": {
-          "driver1": 5,
-          "driver2": 6
+          "driver1": "Daniel Ricciardo",
+          "driver2": "Lando Norris"
         }
       },
       {
@@ -81,7 +81,7 @@
         "points": 12,
         "drivers": {
           "driver1": 7,
-          "driver2": 6
+          "driver2": "Oscar Piastri"
         }
       }
     ]
@@ -104,16 +104,16 @@
         "year": 2022,
         "points": 554,
         "drivers": {
-          "driver1": 16,
-          "driver2": 55
+          "driver1": "Charles Leclerc",
+          "driver2": "Carlos Sainz"
         }
       },
       {
         "year": 2023,
         "points": 26,
         "drivers": {
-          "driver1": 16,
-          "driver2": 55
+          "driver1": "Charles Leclerc",
+          "driver2": "Carlos Sainz"
         }
       }
     ]
@@ -135,8 +135,8 @@
         "year": 2022,
         "points": 55,
         "drivers": {
-          "driver1": 15,
-          "driver2": 18
+          "driver1": "Nico Hulkenberg",
+          "driver2": "Lance Stroll"
         }
 
       },
@@ -144,7 +144,7 @@
         "year": 2023,
         "points": 6,
         "drivers": {
-          "driver1": 14,
+          "name": "Fernando Alonso"
           "driver2": 18
         }
 
@@ -227,16 +227,16 @@
         "year": 2022,
         "points": 173,
         "drivers": {
-          "driver1": 14,
-          "driver2":31
+          "driver1": "Fernando Alonso",
+          "driver2":"Esteban Ocon"
         }
       },
       {
         "year": 2023,
         "points": 8,
         "drivers": {
-          "driver1": 10,
-          "driver2": 31
+          "driver1": "Pierre Gasly",
+          "driver2": "Esteban Ocon"
         }
       }
     ]
@@ -258,16 +258,16 @@
         "year": 2022,
         "points": 35,
         "drivers": {
-          "driver1": 10,
-          "driver2": 22
+          "driver1": "Pierre Gasly",
+          "driver2": "Yuki Tsunoda"
         }
       },
       {
         "year": 2023,
         "points": 1,
         "drivers": {
-          "driver1": 22,
-          "driver2": 0
+          "driver1": "Yuki Tsunoda",
+          "driver2": "Nyck De Vries"
         }
       }
     ]
@@ -289,16 +289,16 @@
         "year": 2022,
         "points": 55,
         "drivers": {
-          "driver1": 24,
-          "driver2": 77
+          "driver1": "Guanyu Zhou",
+          "driver2": "Valtteri Bottas"
         }
       },
       {
         "year": 2023,
         "points": 6,
         "drivers": {
-          "driver1":  24,
-          "driver2": 77
+          "driver1":  "Guanyu Zhou",
+          "driver2": "Valtteri Bottas"
         }
       }
     ]
