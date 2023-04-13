@@ -12,7 +12,7 @@ export const getDrivers = async (req, res) => {
 
 export const getDriverById = async (req, res) => {
   try {
-    const driver = await Driver.findOne({ driverId: req.params.driverId });
+    const driver = await Driver.findOne({ driverId: req.params.officialNumber });
     res.json(driver);
   } catch (error) {
     console.log(error.message);
