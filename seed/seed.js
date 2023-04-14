@@ -2,8 +2,10 @@ import Team from '../models/Team.js';
 import teamData from './teams.json' assert { type: "json" };
 import mongoose from 'mongoose';
 import Driver from '../models/Driver.js';
-
 import driverData from './drivers.json' assert { type: "json" };
+
+
+
     export const seedTeams = async () => {
       try {
         const teams = teamData.map((team) => ({

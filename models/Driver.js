@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-// import Team from './Team.js';
-// import express from 'express'
+import Team from './Team.js';
+import express from 'express'
 
 const Schema = mongoose.Schema;
 
