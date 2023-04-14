@@ -28,6 +28,5 @@ const TeamSchema = new Schema({
   pointsByYear: [pointsByYearSchema]
 }, { _id: false });
 
-const Team = mongoose.model('team', TeamSchema);
-
-export default Team;
+export const Team = mongoose.model('team', TeamSchema);
+export default Team

@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 import Team from './Team.js';
+import express from 'express'
 
 const Schema = mongoose.Schema;
 
@@ -21,5 +22,5 @@ const DriverSchema = new Schema({
   image: String
 });
 
-const Driver = mongoose.model('drivers', DriverSchema);
-export default Driver;
+export const Driver = mongoose.model("Driver", DriverSchema)
+export default Driver
