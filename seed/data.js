@@ -1,13 +1,10 @@
 import db from "../db/connection.js";
 import { seedTeams, seedDrivers } from "./seed.js";
 
-import Team from "../models/Team.js" 
-import Driver from "../models/Driver.js" 
-
 const updateData = async () => {
-  let teams = await Team.find({}, {maxTimeMS: 30000});
+  let teams = await db.collection('teams').find({}).toArray();
   teams.forEach(async (team) => {
-    await Driver.updateMany(
+    await db.collection('drivers').updateMany(
       { team: team.teamName },
       { $set: { team: team } }
     );
@@ -20,3 +17,4 @@ await seedDrivers();
 
 // Call updateData to update the Driver documents
 await updateData();
+
