@@ -1,6 +1,5 @@
 import Team from '../models/Team.js';
 import teamData from './teams.json' assert { type: "json" };
-
 import mongoose from 'mongoose';
 import Driver from '../models/Driver.js';
 

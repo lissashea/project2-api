@@ -1,9 +1,9 @@
 # API Boilerplate
 
-This is an API boilerplate project built with Node.js, Express.js, and MongoDB using Mongoose. The project provides a starting point for building RESTful APIs.
+ The project provides a starting point for building RESTful API. The API is for a Formula 1 racing database. The application uses Node.js with the Express.js framework and MongoDB as the database. The project contains routes for drivers and teams data and uses Mongoose as an Object Data Modeling (ODM) library to interact with the MongoDB database.Overall, this project provides a simple RESTful API to access and manipulate driver and team data for Formula 1 racing.
 
 ### Data Model
-The database for this project is built using MongoDB and Mongoose, and contains two collections: "drivers" and "teams". Here are the schemas for each collection, along with some sample data:
+The database for this project is built using MongoDB and Mongoose, and contains two collections: "drivers" and "teams". Here are the schemas for each collection:
 
 ### Driver Schema
 | Field          | Type    | Description                                   |
@@ -40,7 +40,7 @@ Make sure you have Node.js and npm installed on your machine.
 4. Create a `.env` file at the root of the project and set your environment variables.
 5. To run the project, use the command `npm start`.
 6. To run the project in development mode with hot reloading, use the command `npm run dev`.
-7. To seed the database with test data, run the command `railway run npm run db:seed`.
+7. To deploy the database with data, run the command `railway run npm run db:seed`.
 
 Note: It's important to make sure you have all the dependencies listed in the `package.json` file installed and correctly configured before running the project.
 
@@ -67,7 +67,7 @@ To deploy the application to a live server, you can use a hosting platform like 
 1. Clone the repository to your local machine.
 2. Set up a MongoDB Atlas account and create a new database. Update the MONGO_URL environment variable in .env with your database connection string.
 3. Install the required dependencies by running npm install.
-4. Seed the database by running npm run seed.
-5. Start the server by running npm start.
+4. Seed the database by running npm run db:seed.
+5. Start the server by running npm run dev
 6. The API is now running on http://localhost:3000.
 7. The application is also deployed to a domain in Railway at https://saucy-turkey-production.up.railway.app. You can access the deployed API by making HTTP requests to this URL.

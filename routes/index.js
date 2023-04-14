@@ -5,12 +5,6 @@ import Driver from "../models/Driver.js"
 
 const router = Router();
 
-
-//Define a GET route for the root URL "/"
-// Call Driver.find() to get all the drivers
-// Send the drivers as a JSON response
-// Mount the driversRoutes and teamsRoutes on the router using router.use()
-
 router.get("/", async (req, res, next) => {
   try {
     const drivers = await Driver.find();

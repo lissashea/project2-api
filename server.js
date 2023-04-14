@@ -4,8 +4,8 @@ import logger from "morgan";
 import chalk from "chalk";
 import routes from "./routes/index.js";
 import mongoose from "mongoose"
-import { Team } from "./models/Team.js";
-import { Driver } from "./models/Driver.js";
+// import { Team } from "./models/Team.js";
+// import { Driver } from "./models/Driver.js";
 
 
 const app = express();
