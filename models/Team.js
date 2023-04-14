@@ -15,6 +15,7 @@ const pointsByYearSchema = new Schema({
 }, { _id: false });
 
 const TeamSchema = new Schema({
+  _id: mongoose.Schema.Types.ObjectId,
   teamName: { type: String },
   teamID: { type: Number },
   previousNames: { type: [String] },

@@ -14,7 +14,7 @@ export const getTeams = async (req, res) => {
 //getTeamById function: gets a team with a specific ID from the database (1-10)
 export const getTeamById = async (req, res) => {
   try {
-    const team = await Team.findOne({ teamID: `${req.params.teamId}` });
+    const team = await Team.findOne({ teamID: parseInt(req.params.teamId) });
     res.json(team);
   } catch (error) {
     console.log(error.message);
@@ -22,6 +22,16 @@ export const getTeamById = async (req, res) => {
   }
 };
 
+//getTeamById function: gets a team with a teamObject unique ID
+export const getTeamByObjectId = async (req, res) => {
+  try {
+    const team = await Team.findById(req.params.teamObjectId);
+    res.json(team);
+  } catch (error) {
+    console.log(error.message);
+    res.status(500).json({ error: error.message });
+  }
+};
 //createTeam function: creates a new team in the database
 export const createTeam = async (req, res) => {
   try {

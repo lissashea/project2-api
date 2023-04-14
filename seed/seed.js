@@ -19,7 +19,7 @@ export const seedTeams = async () => {
       teamLogo: team.teamLogo,
       pointsByYear: team.pointsByYear,
     }));
-    await Team.deleteMany({});
+    await Team.deleteMany().maxTimeMS(60000); // increase timeout to 60 seconds
     await Team.create(teams);
     console.log("Team collection seeded!");
   } catch (error) {
