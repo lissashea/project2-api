@@ -18,6 +18,7 @@ const DriverSchema = new Schema({
   },
   officialNumber: Number,
   podiums: Number,
+  wins: Number,
   pointsByYear: [pointsByYearSchema],
   image: String
 });

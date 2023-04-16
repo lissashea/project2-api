@@ -1,33 +1,30 @@
-import Team from '../models/Team.js';
-import teamData from './teams.json' assert { type: "json" };
-import mongoose from 'mongoose';
-import Driver from '../models/Driver.js';
-import driverData from './drivers.json' assert { type: "json" };
+import Team from "../models/Team.js";
+import teamData from "./teams.json" assert { type: "json" };
+import mongoose from "mongoose";
+import Driver from "../models/Driver.js";
+import driverData from "./drivers.json" assert { type: "json" };
 
+export const seedTeams = async () => {
+  try {
+    const teams = teamData.map((team) => ({
+      _id: new mongoose.Types.ObjectId(),
+      teamName: team.teamName,
+      principal: team.principal,
+      owner: team.owner,
+      engine: team.engine,
+      country: team.country,
+      championships: team.championships,
+      teamLogo: team.teamLogo,
+      pointsByYear: team.pointsByYear,
+    }));
+    await Team.deleteMany({});
+    await Team.create(teams);
+    console.log("Team collection seeded!");
+  } catch (error) {
+    console.log("Error seeding Team collection:", error);
+  }
+};
 
-
-    export const seedTeams = async () => {
-      try {
-        const teams = teamData.map((team) => ({
-          _id: new mongoose.Types.ObjectId(),
-          teamName: team.teamName,
-          teamID: team.teamID,
-          previousNames: team.previousNames,
-          principal: team.principal,
-          owner: team.owner,
-          engine: team.engine,
-          country: team.country,
-          championships: team.championships,
-          teamLogo: team.teamLogo,
-          pointsByYear: team.pointsByYear
-        }));
-        await Team.deleteMany({});
-        await Team.create(teams);
-        console.log('Team collection seeded!');
-      } catch (error) {
-        console.log('Error seeding Team collection:', error);
-      }
-    };
 export const seedDrivers = async () => {
   const drivers = driverData.map((driver) => ({
     name: driver.name,
@@ -37,7 +34,7 @@ export const seedDrivers = async () => {
     podiums: driver.podiums,
     wins: driver.wins,
     pointsByYear: driver.pointsByYear,
-    image: driver.image
+    image: driver.image,
   }));
   try {
     await Driver.deleteMany({});
