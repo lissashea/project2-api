@@ -8,7 +8,7 @@ const driverIdSchema = new Schema({
   driver2: { type: String }
 }, { _id: false });
 
-const pointsByYearSchema = new Schema({ 
+const teamPointsByYearSchema = new Schema({ 
   year: { type: Number },
   points: { type: Number },
   drivers: [driverIdSchema]
@@ -23,7 +23,7 @@ const TeamSchema = new Schema({
   country: { type: String },
   championships: { type: Number },
   teamLogo: { type: String},
-  teamPointsByYear: [pointsByYearSchema]
+  teamPointsByYear: [teamPointsByYearSchema]
 }, { _id: false });
 
 export const Team = mongoose.model('Team', TeamSchema);

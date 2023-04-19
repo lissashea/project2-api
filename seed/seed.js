@@ -15,7 +15,7 @@ export const seedTeams = async () => {
       country: team.country,
       championships: team.championships,
       teamLogo: team.teamLogo,
-      teamPointsByYear: team.pointsByYear,
+      teamPointsByYear: team.teamPointsByYear,
     }));
     await Team.deleteMany({});
     await Team.create(teams);

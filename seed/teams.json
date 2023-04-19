@@ -9,7 +9,7 @@
     "country": "Germany",
     "championships": 8,
     "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes.jpg",
-    "pointsByYear": [
+    "teamPointsByYear": [
       {
         "year": 2022,
         "points": 515,
@@ -38,7 +38,7 @@
     "country": "Austria",
     "championships": 5,
     "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/red%20bull.jpg",
-    "pointsByYear": [
+    "teamPointsByYear": [
       {
         "year": 2022,
         "points": 759,
@@ -67,7 +67,7 @@
     "country": "United Kingdom",
     "championships": 8,
     "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mclaren.jpg",
-    "pointsByYear": [
+    "teamPointsByYear": [
       {
         "year": 2022,
         "points": 159,
@@ -97,7 +97,7 @@
     "country": "Italy",
     "championships": 16,
     "teamLogo": "https://media.formula1.com/content/dam/fom-website/teams/Ferrari/logo-ferrari-18%20.jpg",
-    "pointsByYear": [
+    "teamPointsByYear": [
       {
         "year": 2022,
         "points": 554,
@@ -126,7 +126,7 @@
     "country": "United Kingdom",
     "championships": 0,
     "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/aston%20martin.jpg",
-    "pointsByYear": [
+    "teamPointsByYear": [
       {
         "year": 2022,
         "points": 55,
@@ -155,7 +155,7 @@
     "country": "United States",
     "championships": 0,
     "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/haas.jpg",
-    "pointsByYear": [
+    "teamPointsByYear": [
       {
         "year": 2022,
         "points": 37,
@@ -184,7 +184,7 @@
     "country": "United Kingdom",
     "championships": 9,
     "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes.jpg",
-    "pointsByYear": [
+    "teamPointsByYear": [
       {
         "year": 2022,
         "points": 8,
@@ -213,7 +213,7 @@
     "country": "France",
     "championships": 2,
     "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/alpine.jpg",
-    "pointsByYear": [
+    "teamPointsByYear": [
       {
         "year": 2022,
         "points": 173,
@@ -242,7 +242,7 @@
     "country": "Italy",
     "championships": 0,
     "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/alphatauri.jpg",
-    "pointsByYear": [
+    "teamPointsByYear": [
       {
         "year": 2022,
         "points": 35,
@@ -271,7 +271,7 @@
     "country": "Switzerland",
     "championships": 0,
     "teamLogo": "https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/team%20logos/alfa%20romeo.jpg",
-    "pointsByYear": [
+    "teamPointsByYear": [
       {
         "year": 2022,
         "points": 55,
