@@ -23,7 +23,7 @@ const TeamSchema = new Schema({
   country: { type: String },
   championships: { type: Number },
   teamLogo: { type: String},
-  pointsByYear: [pointsByYearSchema]
+  teamPointsByYear: [pointsByYearSchema]
 }, { _id: false });
 
 export const Team = mongoose.model('Team', TeamSchema);
