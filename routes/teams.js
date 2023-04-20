@@ -11,5 +11,7 @@ router.get("/team/:teamId", controllers.getTeamById);
 router.post("/", controllers.createTeam);
 router.put("/:id", controllers.updateTeam);
 router.delete("/:id", controllers.deleteTeam);
+router.get("/points-by-year", controllers.getTeamPointsByYear);
+
 
 export default router;

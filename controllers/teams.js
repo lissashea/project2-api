@@ -68,6 +68,23 @@ export const deleteTeam = async (req, res) => {
   }
 };
 
+export const getTeamPointsByYear = async (req, res) => {
+  try {
+    const teams = await Team.find({}, { teamName: 1, teamPointsByYear: 1, _id: 0 });
+    const result = teams.map(team => ({
+      teamName: team.teamName,
+      pointsByYear: team.teamPointsByYear.map(pointsByYear => ({
+        year: pointsByYear.year,
+        points: pointsByYear.points,
+      })),
+    }));
+    res.status(200).json(result);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: "Internal server error" });
+  }
+};
+
 // Error handling middleware function
 export const errorHandler = (error, req, res) => {
   console.error(error);
