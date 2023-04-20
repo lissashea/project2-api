@@ -4,18 +4,18 @@ import express from 'express'
 
 const Schema = mongoose.Schema;
 
+
 const pointsByYearSchema = new Schema({
   year: Number,
   points: Number,
-  teamName: String
+  team: String
 }, { _id: false });
+
 
 const DriverSchema = new Schema({
   name: String,
   nationality: String,
-  team: {
-    type: Object
-  },
+  team: {},
   officialNumber: Number,
   podiums: Number,
   wins: Number,
@@ -23,5 +23,6 @@ const DriverSchema = new Schema({
   image: String
 });
 
-export const Driver = mongoose.model("Driver", DriverSchema)
-export default Driver
+
+export const Driver = mongoose.model("Driver", DriverSchema);
+export default Driver;

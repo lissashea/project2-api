@@ -1,3 +1,4 @@
+
 import db from "../db/connection.js";
 import { seedTeams, seedDrivers } from "./seed.js";
 
@@ -17,4 +18,3 @@ await seedDrivers();
 
 // Call updateData to update the Driver documents
 await updateData();
-
