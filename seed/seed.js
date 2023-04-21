@@ -35,6 +35,7 @@ export const seedDrivers = async (teams) => {
     team: driver.team,
     officialNumber: driver.officialNumber,
     podiums: driver.podiums,
+    wins: driver.wins,
     pointsByYear: driver.pointsByYear,
     image: driver.image
   }));
