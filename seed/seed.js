@@ -7,7 +7,6 @@ import driverData from './drivers.json' assert { type: "json" };
 export const seedTeams = async () => {
   try {
     const teams = teamData.map((team) => ({
-      _id: new mongoose.Types.ObjectId(),
       teamName: team.teamName,
       teamID: team.teamID,
       previousNames: team.previousNames,

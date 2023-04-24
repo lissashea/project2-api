@@ -59,6 +59,7 @@ Note: It's important to make sure you have all the dependencies listed in the `p
 - POST /: Creates a new team.
 - PUT /:id: Updates an existing team.
 - DELETE /:id: Deletes a team by teamId.
+- GET /points-by-year gets points by year for all teams.
 
 Note that all routes return data in JSON format.
 

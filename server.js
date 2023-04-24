@@ -13,12 +13,14 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const MONGODB_URI = process.env.MONGO_URL || "mongodb://localhost:27017/formula1";
 
+
 app.listen(PORT, () => console.log(`app listening on port ${PORT}`));
 
 // set up middleware
 app.use(express.json());
 app.use(cors());
 app.use(logger("dev"));
+
 
 // connect to MongoDB
 mongoose
