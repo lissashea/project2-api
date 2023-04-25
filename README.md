@@ -47,11 +47,12 @@ Note: It's important to make sure you have all the dependencies listed in the `p
 ## API Routes
 /drivers
 - GET /: Returns a list of all drivers.
-- GET /driver/id/:driverId: Returns a single driver by driverId.
+- GET /driver/id/:driverId: Returns a single driver by driverId (driver offical number not objectID)
 - GET /driver/firstname/:firstName: Returns a single driver by first name.
-- POST /: Creates a new driver.
+- POST drivers/ Creates a new driver.
 - PUT /:id: Updates an existing driver.
 - DELETE /:driverId: Deletes a driver by driverId.
+- GET driver/driver-without-team pulls only driver information no nested team
 
 /teams
 - GET /: Returns a list of all teams.

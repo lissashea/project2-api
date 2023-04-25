@@ -1,0 +1,133 @@
+
+  [
+  {
+    "teamName": "Mercedes-AMG Petronas Formula One Team",
+    "pointsByYear": [
+      {
+        "year": 2022,
+        "points": 515
+      },
+      {
+        "year": 2023,
+        "points": 56
+      }
+    ]
+  },
+  {
+    "teamName": "McLaren F1 Team",
+    "pointsByYear": [
+      {
+        "year": 2022,
+        "points": 159
+      },
+      {
+        "year": 2023,
+        "points": 12
+      }
+    ]
+  },
+  {
+    "teamName": "Red Bull Racing Honda",
+    "pointsByYear": [
+      {
+        "year": 2022,
+        "points": 759
+      },
+      {
+        "year": 2023,
+        "points": 123
+      }
+    ]
+  },
+  {
+    "teamName": "Scuderia Ferrari Mission Winnow",
+    "pointsByYear": [
+      {
+        "year": 2022,
+        "points": 554
+      },
+      {
+        "year": 2023,
+        "points": 26
+      }
+    ]
+  },
+  {
+    "teamName": "Williams Racing",
+    "pointsByYear": [
+      {
+        "year": 2022,
+        "points": 8
+      },
+      {
+        "year": 2023,
+        "points": 1
+      }
+    ]
+  },
+  {
+    "teamName": "Aston Martin Cognizant Formula One Team",
+    "pointsByYear": [
+      {
+        "year": 2022,
+        "points": 55
+      },
+      {
+        "year": 2023,
+        "points": 6
+      }
+    ]
+  },
+  {
+    "teamName": "Scuderia AlphaTauri Honda",
+    "pointsByYear": [
+      {
+        "year": 2022,
+        "points": 35
+      },
+      {
+        "year": 2023,
+        "points": 1
+      }
+    ]
+  },
+  {
+    "teamName": "Alfa Romeo Racing ORLEN",
+    "pointsByYear": [
+      {
+        "year": 2022,
+        "points": 55
+      },
+      {
+        "year": 2023,
+        "points": 6
+      }
+    ]
+  },
+  {
+    "teamName": "Haas F1 Team",
+    "pointsByYear": [
+      {
+        "year": 2022,
+        "points": 37
+      },
+      {
+        "year": 2023,
+        "points": 7
+      }
+    ]
+  },
+  {
+    "teamName": "Alpine F1 Team",
+    "pointsByYear": [
+      {
+        "year": 2022,
+        "points": 173
+      },
+      {
+        "year": 2023,
+        "points": 8
+      }
+    ]
+  }
+]

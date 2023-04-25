@@ -3,7 +3,7 @@ import Team from "../models/Team.js";
 //getTeams function: gets all teams from the database
 export const getTeams = async (req, res) => {
   try {
-    const teams = await Team.find();
+    const teams = await Team.find({}, { __v: 0 }); // Exclude the __v field
     res.json(teams);
   } catch (error) {
     console.log(error.message);
@@ -68,12 +68,13 @@ export const deleteTeam = async (req, res) => {
   }
 };
 
+//get only the team points in an array of objects keyvalue pairs
 export const getTeamPointsByYear = async (req, res) => {
   try {
     const teams = await Team.find({}, { teamName: 1, teamPointsByYear: 1, _id: 0 });
-    const result = teams.map(team => ({
+    const result = teams.map((team) => ({
       teamName: team.teamName,
-      pointsByYear: team.teamPointsByYear.map(pointsByYear => ({
+      pointsByYear: team.teamPointsByYear.map((pointsByYear) => ({
         year: pointsByYear.year,
         points: pointsByYear.points,
       })),

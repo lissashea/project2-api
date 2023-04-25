@@ -1,6 +1,5 @@
 import Team from '../models/Team.js';
 import teamData from './teams.json' assert { type: "json" };
-import mongoose from 'mongoose';
 import Driver from '../models/Driver.js';
 import driverData from './drivers.json' assert { type: "json" };
 
@@ -15,8 +14,9 @@ export const seedTeams = async () => {
       engine: team.engine,
       country: team.country,
       championships: team.championships,
-      teamLogo: team.teamLogo,
-      teamPointsByYear: team.teamPointsByYear
+      teamPointsByYear: team.teamPointsByYear,
+      teamLogo: team.teamLogo
+
     }));
     await Team.deleteMany({});
     await Team.create(teams);
@@ -35,8 +35,8 @@ export const seedDrivers = async (teams) => {
     officialNumber: driver.officialNumber,
     podiums: driver.podiums,
     wins: driver.wins,
-    pointsByYear: driver.pointsByYear,
-    image: driver.image
+    image: driver.image,
+    pointsByYear: driver.pointsByYear
   }));
   try {
     await Driver.deleteMany({});

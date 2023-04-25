@@ -1,14 +1,27 @@
 import Driver from "../models/Driver.js";
 
+//get all drivers(including nested team object corresponding to current driver team)
 export const getDrivers = async (req, res) => {
   try {
-    const drivers = await Driver.find().populate({ path: 'team', options: { strictPopulate: false } });
+    const drivers = await Driver.find().populate({ path: 'team', select: '-__v', options: { strictPopulate: false } }).select({ __v: 0, team: { __v: 0 } });
     res.json(drivers);
   } catch (error) {
     console.log(error.message);
     res.status(500).json({ error: error.message });
   }
 };
+
+//get drivers without nested team object
+export const getDriversWithoutTeam = async (req, res) => {
+  try {
+    const drivers = await Driver.find({}, { team: 0 });
+    res.json(drivers);
+  } catch (error) {
+    console.log(error.message);
+    res.status(500).json({ error: error.message });
+  }
+};
+
 //getDriverById: Retrieves a driver by their official number.
 export const getDriverById = async (req, res) => {
   try {

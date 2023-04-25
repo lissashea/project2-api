@@ -10,5 +10,6 @@ router.post("/", controllers.createDriver);
 router.put("/:id", controllers.updateDriver);
 router.delete("/:driverId", controllers.deleteDriverById);
 router.get("/driver/firstname/:firstName", controllers.getDriverByFirstName);
+router.get("/without-team", controllers.getDriversWithoutTeam); // Define new route here
 
 export default router;

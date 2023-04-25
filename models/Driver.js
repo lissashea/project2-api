@@ -4,7 +4,6 @@ import express from 'express'
 
 const Schema = mongoose.Schema;
 
-
 const pointsByYearSchema = new Schema({
   year: Number,
   points: Number,

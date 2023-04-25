@@ -1,4 +1,3 @@
-
 import express from "express";
 import cors from "cors";
 import logger from "morgan";
@@ -21,7 +20,6 @@ app.use(express.json());
 app.use(cors());
 app.use(logger("dev"));
 
-
 // connect to MongoDB
 mongoose
   .connect(MONGODB_URI, {
@@ -36,3 +34,9 @@ mongoose
   });
 
 app.use("/", routes);
+
+// error handling middleware
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).json({ error: 'Internal Server Error' });
+});
