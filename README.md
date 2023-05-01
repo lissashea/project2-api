@@ -52,7 +52,7 @@ Note: It's important to make sure you have all the dependencies listed in the `p
 - POST drivers/ Creates a new driver.
 - PUT /:id: Updates an existing driver.
 - DELETE /:driverId: Deletes a driver by driverId.
-- GET driver/driver-without-team pulls only driver information no nested team
+- GET driver/driver-without-team pulls only driver information no nested team.
 
 /teams
 - GET /: Returns a list of all teams.

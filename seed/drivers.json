@@ -1,4 +1,4 @@
-[
+ [
   {
     "name": "Lewis Hamilton",
     "nationality": "British",
@@ -24,13 +24,13 @@
       },
       {
         "year": 2023,
-        "points": 38,
+        "points": 48,
         "teamName": "Mercedes-AMG Petronas Formula One Team"
       }
     ],
     "image": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/hamilton.jpg.img.1536.medium.jpg/1677069594164.jpg"
   },
-
+ 
   {
     "name": "Charles Leclerc",
     "nationality": "Monegasque",
@@ -56,7 +56,7 @@
       },
       {
         "year": 2023,
-        "points": 6,
+        "points": 28,
         "teamName": "Scuderia Ferrari Mission Winnow"
       }
     ],
@@ -87,7 +87,7 @@
       },
       {
         "year": 2023,
-        "points": 69,
+        "points": 93,
         "teamName": "Red Bull Racing Honda"
       }
     ],
@@ -144,7 +144,7 @@
       },
       {
         "year": 2023,
-        "points": 20,
+        "points": 34,
         "teamName": "Scuderia Ferrari Mission Winnow"
       }
     ],
@@ -170,7 +170,7 @@
       },
       {
         "year": 2023,
-        "points": 8,
+        "points": 10,
         "teamName": "McLaren F1 Team"
       }
     ],
@@ -196,7 +196,7 @@
       },
       {
         "year": 2023,
-        "points": 45,
+        "points": 60,
         "teamName": "Aston Martin Cognizant Formula One Team"
       }
     ],
@@ -227,7 +227,7 @@
       },
       {
         "year": 2023,
-        "points": 20,
+        "points": 27,
         "teamName": "Aston Martin Cognizant Formula One Team"
       }
     ],
@@ -394,7 +394,7 @@
       },
       {
         "year": 2023,
-        "points": 1,
+        "points": 2,
         "teamName": "Scuderia AlphaTauri Honda"
       }
     ],
@@ -472,7 +472,7 @@
       },
       {
         "year": 2023,
-        "points": 18,
+        "points": 28,
         "teamName": "Mercedes-AMG Petronas Formula One Team"
       }
     ],
@@ -503,7 +503,7 @@
       },
       {
         "year": 2023,
-        "points": 54,
+        "points": 87,
         "teamName": "Red Bull Racing Honda"
       }
     ],
@@ -541,4 +541,10 @@
     ],
     "image": "https://res.cloudinary.com/prod-f2f3/image/upload/v1583156129/f2/global/drivers/2020/_R3I4652.jpg"
   }
-]
+ ]
+ 
+ 
+ 
+ 
+ 
+ 

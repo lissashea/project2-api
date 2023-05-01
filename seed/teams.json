@@ -20,7 +20,7 @@
       },
       {
         "year": 2023,
-        "points": 56,
+        "points": 76,
         "drivers": {
           "driver1": "Lewis Hamilton",
           "driver2": "George Russel"
@@ -49,7 +49,7 @@
       },
       {
         "year": 2023,
-        "points": 123,
+        "points": 180,
         "drivers": {
           "driver1": "Max Verstappen",
           "driver2": "Sergio Perez"
@@ -78,7 +78,7 @@
       },
       {
         "year": 2023,
-        "points": 12,
+        "points": 14,
         "drivers": {
           "driver1": "Lando Norris",
           "driver2": "Oscar Piastri"
@@ -86,7 +86,7 @@
       }
     ]
   },
-
+ 
   {
     "teamName": "Scuderia Ferrari Mission Winnow",
     "teamID": 4,
@@ -108,7 +108,7 @@
       },
       {
         "year": 2023,
-        "points": 26,
+        "points": 62,
         "drivers": {
           "driver1": "Charles Leclerc",
           "driver2": "Carlos Sainz"
@@ -137,7 +137,7 @@
       },
       {
         "year": 2023,
-        "points": 6,
+        "points": 87,
         "drivers": {
           "driver1": "Fernando Alonso",
           "driver2": "Lance Stroll"
@@ -253,7 +253,7 @@
       },
       {
         "year": 2023,
-        "points": 1,
+        "points": 2,
         "drivers": {
           "driver1": "Yuki Tsunoda",
           "driver2": "Nyck De Vries"
@@ -290,4 +290,6 @@
       }
     ]
   }
-]
+ ]
+ 
+ 
