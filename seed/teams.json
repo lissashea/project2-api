@@ -20,7 +20,7 @@
       },
       {
         "year": 2023,
-        "points": 76,
+        "points": 96,
         "drivers": {
           "driver1": "Lewis Hamilton",
           "driver2": "George Russel"
@@ -49,7 +49,7 @@
       },
       {
         "year": 2023,
-        "points": 180,
+        "points": 224,
         "drivers": {
           "driver1": "Max Verstappen",
           "driver2": "Sergio Perez"
@@ -108,7 +108,7 @@
       },
       {
         "year": 2023,
-        "points": 62,
+        "points": 78,
         "drivers": {
           "driver1": "Charles Leclerc",
           "driver2": "Carlos Sainz"
@@ -137,7 +137,7 @@
       },
       {
         "year": 2023,
-        "points": 87,
+        "points": 102,
         "drivers": {
           "driver1": "Fernando Alonso",
           "driver2": "Lance Stroll"
@@ -166,7 +166,7 @@
       },
       {
         "year": 2023,
-        "points": 7,
+        "points": 8,
         "drivers": {
           "driver1": "Kevin Magnussen",
           "driver2": "Nico Hulkenberg"
@@ -224,7 +224,7 @@
       },
       {
         "year": 2023,
-        "points": 8,
+        "points": 14,
         "drivers": {
           "driver1": "Pierre Gasly",
           "driver2": "Esteban Ocon"
@@ -282,7 +282,7 @@
       },
       {
         "year": 2023,
-        "points": 6,
+        "points": 8,
         "drivers": {
           "driver1": "Guanyu Zhou",
           "driver2": "Valtteri Bottas"
